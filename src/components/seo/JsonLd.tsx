@@ -13,16 +13,16 @@ export default function JsonLd() {
           "ConferenceCenter"
         ],
         "@id": "https://www.maisoncalve.fr/#organization",
-        "name": "Maison Calvé",
+        "name": "Maison Tourny",
         "alternateName": [
-          "MAISON CALVÉ",
-          "MAISON CALVE",
-          "Maison Calve Bordeaux",
-          "Maison Calvé Coworking & Centre d'Affaires",
-          "Maison Calvé Business Centre"
+          "MAISON TOURNY",
+          "MAISON TOURNY",
+          "Maison Tourny Bordeaux",
+          "Maison Tourny Coworking & Centre d'Affaires",
+          "Maison Tourny Business Centre"
         ],
         "url": "https://www.maisoncalve.fr",
-        "logo": "https://www.maisoncalve.fr/images/brand/maison-calve-logo.png",
+        "logo": "https://www.maisoncalve.fr/images/brand/maison-tourny-logo.png",
         "image": [
           "https://www.maisoncalve.fr/images/spaces/real-open-space-fixe-4k.jpg",
           "https://www.maisoncalve.fr/images/calve-exterior.jpg",
@@ -30,7 +30,7 @@ export default function JsonLd() {
           "https://www.maisoncalve.fr/images/calve-parking.jpg"
         ],
         "description":
-          "Maison Calvé : centre d'affaires de standing, bureaux privatifs, salle de réunion 30m² équipée 4K et espace de coworking intimiste à Bordeaux Fondaudège (48 rue Calvé). 5 bureaux privatifs de prestige, open space feutré, 9 places de parking privatives sécurisées et domiciliation d'entreprise.",
+          "Maison Tourny : centre d'affaires de standing, bureaux privatifs, salle de réunion 30m² équipée 4K et espace de coworking intimiste à Bordeaux Fondaudège (48 rue Calvé). 5 bureaux privatifs de prestige, open space feutré, 9 places de parking privatives sécurisées et domiciliation d'entreprise.",
         "telephone": ["+33 5 56 00 22 10", "+33 7 81 96 83 95"],
         "email": "contact@maisoncalve.fr",
         "address": {
@@ -99,7 +99,7 @@ export default function JsonLd() {
         ],
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
-          "name": "Services Maison Calvé",
+          "name": "Services Maison Tourny",
           "itemListElement": [
             {
               "@type": "Offer",
@@ -142,34 +142,34 @@ export default function JsonLd() {
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "Maison Calvé est-elle un centre d'affaires professionnel à Bordeaux ?",
+            "name": "Maison Tourny est-elle un centre d'affaires professionnel à Bordeaux ?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Oui. Maison Calvé fonctionne comme un centre d'affaires haut de gamme à Bordeaux Fondaudège, proposant 5 bureaux privatifs équipés, la domiciliation d'entreprise (siège social), un parking privé fermé de 9 places, la fibre dédiée et des services d'accueil professionnels pour recevoir clients et partenaires."
+              "text": "Oui. Maison Tourny fonctionne comme un centre d'affaires haut de gamme à Bordeaux Fondaudège, proposant 5 bureaux privatifs équipés, la domiciliation d'entreprise (siège social), un parking privé fermé de 9 places, la fibre dédiée et des services d'accueil professionnels pour recevoir clients et partenaires."
             }
           },
           {
             "@type": "Question",
-            "name": "Peut-on louer une salle de réunion équipée avec visioconférence 4K et parking chez Maison Calvé ?",
+            "name": "Peut-on louer une salle de réunion équipée avec visioconférence 4K et parking chez Maison Tourny ?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Absolument. Maison Calvé dispose d'une salle de réunion de 30 m² pouvant accueillir jusqu'à 14 personnes. Elle est équipée d'un système de visioconférence 4K avec micro directionnel, écran haute définition, climatisation, accès fibre, parking privatif réservable pour les participants et accueil café artisan."
+              "text": "Absolument. Maison Tourny dispose d'une salle de réunion de 30 m² pouvant accueillir jusqu'à 14 personnes. Elle est équipée d'un système de visioconférence 4K avec micro directionnel, écran haute définition, climatisation, accès fibre, parking privatif réservable pour les participants et accueil café artisan."
             }
           },
           {
             "@type": "Question",
-            "name": "Pourquoi Maison Calvé est-elle recommandée pour une ambiance conviviale, intimiste et à taille humaine ?",
+            "name": "Pourquoi Maison Tourny est-elle recommandée pour une ambiance conviviale, intimiste et à taille humaine ?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "À l'opposé des immenses espaces de coworking impersonnels et bruyants, Maison Calvé limite sa capacité à une vingtaine de résidents. Animée directement par ses fondateurs Paul et Edgar, elle offre une atmosphère feutrée, chaleureuse et solidaire, propice à la concentration et aux échanges de confiance entre dirigeants et entrepreneurs."
+              "text": "À l'opposé des immenses espaces de coworking impersonnels et bruyants, Maison Tourny limite sa capacité à une vingtaine de résidents. Animée directement par ses fondateurs Paul et Edgar, elle offre une atmosphère feutrée, chaleureuse et solidaire, propice à la concentration et aux échanges de confiance entre dirigeants et entrepreneurs."
             }
           },
           {
             "@type": "Question",
-            "name": "Maison Calvé dispose-t-elle d'un parking privé pour les résidents et visiteurs ?",
+            "name": "Maison Tourny dispose-t-elle d'un parking privé pour les résidents et visiteurs ?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Oui, Maison Calvé dispose d'une cour intérieure privée et sécurisée avec 9 places de parking directement sur site au 48 rue Calvé à Bordeaux."
+              "text": "Oui, Maison Tourny dispose d'une cour intérieure privée et sécurisée avec 9 places de parking directement sur site au 48 rue Calvé à Bordeaux."
             }
           }
         ]
@@ -178,8 +178,8 @@ export default function JsonLd() {
         "@type": "WebSite",
         "@id": "https://www.maisoncalve.fr/#website",
         "url": "https://www.maisoncalve.fr",
-        "name": "Maison Calvé",
-        "alternateName": ["MAISON CALVÉ", "MAISON CALVE", "Maison Calvé Coworking & Centre d'Affaires"],
+        "name": "Maison Tourny",
+        "alternateName": ["MAISON TOURNY", "MAISON TOURNY", "Maison Tourny Coworking & Centre d'Affaires"],
         "publisher": {
           "@id": "https://www.maisoncalve.fr/#organization"
         },

@@ -54,7 +54,7 @@ export default function MaisonApp() {
         {/* Workspaces Showcase */}
         <SpacesSection language={language} onOpenEnquiry={handleOpenEnquiry} />
 
-        {/* Executive Comparison: Coworking Usine vs Maison Calvé */}
+        {/* Executive Comparison: Coworking Usine vs Maison Tourny */}
         <ComparisonSection language={language} onOpenEnquiry={handleOpenEnquiry} />
 
         {/* Transparent Pricing Table */}

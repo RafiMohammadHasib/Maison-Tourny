@@ -37,7 +37,7 @@ export default function CustomScriptsExecutor({
           s.textContent = trimmed;
           target.appendChild(s);
         } catch (err) {
-          console.error(`[Maison Calvé SEO] Failed to execute raw ${location} script:`, err);
+          console.error(`[Maison Tourny SEO] Failed to execute raw ${location} script:`, err);
         }
         return;
       }
@@ -85,7 +85,7 @@ export default function CustomScriptsExecutor({
           }
         });
       } catch (err) {
-        console.error(`[Maison Calvé SEO] Error parsing custom ${location} code:`, err);
+        console.error(`[Maison Tourny SEO] Error parsing custom ${location} code:`, err);
       }
     };
 

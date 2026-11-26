@@ -137,7 +137,7 @@ export default function InteractiveFloorPlan({ onSelectSpace }: InteractiveFloor
     const height = container.clientHeight || 480;
 
     const scene = new THREE.Scene();
-    scene.background = new THREE.Color("#f8f8f5");
+    scene.background = new THREE.Color("#fcf8ed");
 
     const camera = new THREE.PerspectiveCamera(36, width / height, 0.1, 100);
     camera.position.set(0, 16, 17);
@@ -347,7 +347,7 @@ export default function InteractiveFloorPlan({ onSelectSpace }: InteractiveFloor
       {/* Main Grid: 3D Canvas + Active Room HUD Card */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-0">
         {/* 3D Viewport */}
-        <div className="lg:col-span-8 relative h-[380px] md:h-[480px] bg-[#f8f8f5]">
+        <div className="lg:col-span-8 relative h-[380px] md:h-[480px] bg-[#fcf8ed]">
           <div ref={containerRef} className="w-full h-full" />
 
           {/* Quick instructions floating badge */}

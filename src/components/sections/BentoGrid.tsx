@@ -209,7 +209,7 @@ export default function BentoGrid({ language, onOpenEnquiry }: BentoGridProps) {
   return (
     <section id="bento" className="py-24 bg-calve-cream relative overflow-hidden">
       {/* Background architectural grid lines */}
-      <div className="absolute inset-0 opacity-[0.03] pointer-events-none bg-[radial-gradient(#5b7074_1px,transparent_1px)] [background-size:24px_24px]" />
+      <div className="absolute inset-0 opacity-[0.03] pointer-events-none bg-[radial-gradient(#58639c_1px,transparent_1px)] [background-size:24px_24px]" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Section Header */}
@@ -235,7 +235,7 @@ export default function BentoGrid({ language, onOpenEnquiry }: BentoGridProps) {
             <div className="absolute inset-0 z-0">
               <Image
                 src="/images/spaces/real-open-space-fixe-4k.jpg"
-                alt="Espace de travail authentique pierre blonde Maison Calvé Bordeaux"
+                alt="Espace de travail authentique pierre blonde Maison Tourny Bordeaux"
                 fill
                 sizes="(max-width: 1024px) 100vw, 66vw"
                 className="object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
@@ -297,7 +297,7 @@ export default function BentoGrid({ language, onOpenEnquiry }: BentoGridProps) {
             <div className="absolute inset-0 z-0">
               <Image
                 src="/images/calve-parking.jpg"
-                alt="Cour pavée et parking privé sécurisé Maison Calvé Bordeaux"
+                alt="Cour pavée et parking privé sécurisé Maison Tourny Bordeaux"
                 fill
                 sizes="(max-width: 1024px) 100vw, 33vw"
                 className="object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
@@ -483,7 +483,7 @@ export default function BentoGrid({ language, onOpenEnquiry }: BentoGridProps) {
             <div className="shrink-0 w-full sm:w-auto">
               <button
                 onClick={() => onOpenEnquiry("office")}
-                className="w-full sm:w-auto px-7 py-4 rounded-xl bg-calve-slate hover:bg-calve-slate-light text-white text-xs font-bold uppercase tracking-wider transition-all duration-200 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 cursor-pointer flex items-center justify-center gap-2"
+                className="w-full sm:w-auto px-7 py-4 rounded-xl bg-calve-slate hover:bg-calve-slate-dark text-white text-xs font-bold uppercase tracking-wider transition-all duration-200 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 cursor-pointer flex items-center justify-center gap-2"
               >
                 <span>{content.community.cta}</span>
                 <ArrowUpRight className="w-4 h-4" />

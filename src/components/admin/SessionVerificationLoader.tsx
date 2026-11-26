@@ -4,11 +4,11 @@ import React from "react";
 import Image from "next/image";
 
 export default function SessionVerificationLoader() {
-  const brandName = "MAISON CALVÉ";
+  const brandName = "MAISON TOURNY";
   const letters = brandName.split("");
 
   return (
-    <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-[#090D0E] text-white selection:bg-[#5b7074] selection:text-white overflow-hidden select-none">
+    <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-[#0f1221] text-white selection:bg-[#58639c] selection:text-white overflow-hidden select-none">
       <style>{`
         /* Awwwards-grade GSAP / Framer Motion kinetic curves */
         @keyframes awwwardsMaskUp {
@@ -67,11 +67,11 @@ export default function SessionVerificationLoader() {
         .kinetic-sheen {
           background: linear-gradient(
             90deg,
-            rgba(255, 255, 255, 0.85) 0%,
-            rgba(255, 255, 255, 1) 25%,
-            rgba(163, 186, 189, 1) 50%,
-            rgba(255, 255, 255, 1) 75%,
-            rgba(255, 255, 255, 0.85) 100%
+            rgba(252, 248, 237, 0.85) 0%,
+            rgba(252, 248, 237, 1) 25%,
+            rgba(165, 174, 215, 1) 50%,
+            rgba(252, 248, 237, 1) 75%,
+            rgba(252, 248, 237, 0.85) 100%
           );
           background-size: 200% 100%;
           -webkit-background-clip: text;
@@ -82,11 +82,11 @@ export default function SessionVerificationLoader() {
 
       {/* 1. Deep Atmospheric Ambient Lighting (Awwwards dark luxury mood) */}
       <div className="absolute inset-0 pointer-events-none">
-        {/* Soft radial brand slate glow */}
+        {/* Soft radial brand periwinkle glow */}
         <div
           className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[650px] h-[650px] rounded-full blur-[160px] pointer-events-none"
           style={{
-            background: "radial-gradient(circle, rgba(91, 112, 116, 0.3) 0%, rgba(20, 31, 33, 0.12) 65%, transparent 100%)",
+            background: "radial-gradient(circle, rgba(165, 174, 215, 0.28) 0%, rgba(24, 27, 46, 0.14) 65%, transparent 100%)",
             animation: "awwwardsPulseGlow 6s ease-in-out infinite"
           }}
         />
@@ -110,21 +110,21 @@ export default function SessionVerificationLoader() {
             style={{ animation: "awwwardsOrbit 12s cubic-bezier(0.4, 0, 0.2, 1) infinite" }}
           >
             {/* Specular orbital light dot */}
-            <span className="absolute -top-[2px] left-1/2 -translate-x-1/2 w-1.5 h-1.5 rounded-full bg-emerald-400 shadow-[0_0_10px_#34d399]" />
+            <span className="absolute -top-[2px] left-1/2 -translate-x-1/2 w-1.5 h-1.5 rounded-full bg-[#a5aed7] shadow-[0_0_10px_#a5aed7]" />
           </div>
 
           {/* Secondary counter-rotating dashed ring */}
           <div
-            className="absolute inset-2 rounded-full border border-[#5b7074]/20 border-dashed"
+            className="absolute inset-2 rounded-full border border-[#a5aed7]/25 border-dashed"
             style={{ animation: "awwwardsOrbit 24s linear infinite reverse" }}
           />
 
           {/* Centered Brand Squircle Emblem */}
           <div className="relative w-15 h-15 rounded-2xl p-[1px] bg-gradient-to-b from-white/30 via-white/10 to-transparent shadow-[0_20px_50px_rgba(0,0,0,0.6)]">
-            <div className="relative w-full h-full rounded-[15px] overflow-hidden bg-[#11191B] border border-white/10 flex items-center justify-center backdrop-blur-xl">
+            <div className="relative w-full h-full rounded-[15px] overflow-hidden bg-[#181b2e] border border-white/10 flex items-center justify-center backdrop-blur-xl">
               <Image
-                src="/images/brand/maison-calve-logo.png"
-                alt="Maison Calvé"
+                src="/images/brand/maison-tourny-logo.png"
+                alt="Maison Tourny"
                 fill
                 sizes="60px"
                 className="object-cover"
@@ -134,7 +134,7 @@ export default function SessionVerificationLoader() {
           </div>
         </div>
 
-        {/* Masked Kinetic Split-Text Typography: MAISON CALVÉ */}
+        {/* Masked Kinetic Split-Text Typography: MAISON TOURNY */}
         <div className="flex items-center justify-center text-2xl sm:text-3xl font-extrabold tracking-[0.42em] pl-[0.42em] font-sans">
           {letters.map((char, index) => (
             <span key={index} className="inline-block overflow-hidden py-1">
@@ -153,7 +153,7 @@ export default function SessionVerificationLoader() {
         {/* Breathing Minimalist Horizon Beam */}
         <div className="mt-6 flex items-center justify-center">
           <span
-            className="h-[1.5px] rounded-full bg-gradient-to-r from-transparent via-[#758d91] to-transparent block"
+            className="h-[1.5px] rounded-full bg-gradient-to-r from-transparent via-[#a5aed7] to-transparent block"
             style={{ animation: "awwwardsHorizon 3.6s ease-in-out infinite" }}
           />
         </div>

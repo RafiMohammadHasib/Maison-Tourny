@@ -21,7 +21,7 @@ const testSuites = [
 
 async function main() {
   console.log("================================================================================");
-  console.log("  MAISON CALVÉ — COMPREHENSIVE SYSTEM TEST & SECURITY AUDIT RUNNER");
+  console.log("  MAISON TOURNY — COMPREHENSIVE SYSTEM TEST & SECURITY AUDIT RUNNER");
   console.log("================================================================================\n");
 
   const results: SuiteResult[] = [];
@@ -76,7 +76,7 @@ async function main() {
   const reportDate = new Date().toISOString();
   const reportMarkdown = `# Comprehensive System Verification, Security Audit & Performance Report
 
-**System Under Test**: Maison Calvé — Luxury Hospitality, Coworking & Commercial Lease Management System  
+**System Under Test**: Maison Tourny — Luxury Hospitality, Coworking & Commercial Lease Management System  
 **Framework**: Next.js 16.3.5 (Turbopack) / React 19 / TypeScript 5 / Node.js 26  
 **Execution Timestamp**: \`${reportDate}\`  
 **Overall Execution Result**: **100% PASSED (0 Failures, ${totalTests} Assertions Passed)**  

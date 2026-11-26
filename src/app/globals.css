@@ -3,33 +3,33 @@
 /* Tailwind CSS v4 Design Tokens */
 @theme {
   --font-sans: var(--font-sans), "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
-  --color-calve-slate: #5b7074;
-  --color-calve-slate-light: #758d91;
-  --color-calve-slate-dark: #3a4b4e;
-  --color-calve-slate-deep: #1c2729;
-  --color-calve-cream: #f9f9f6;
-  --color-calve-stone: #f1efe9;
-  --color-calve-sand: #e5e0d7;
-  --color-calve-charcoal: #172123;
-  --color-calve-muted: #6e7f82;
-  --color-calve-accent: #c06c4e;
-  --color-calve-border: #e3ded6;
+  --color-calve-slate: #58639c;
+  --color-calve-slate-light: #a5aed7;
+  --color-calve-slate-dark: #3e4675;
+  --color-calve-slate-deep: #222745;
+  --color-calve-cream: #fcf8ed;
+  --color-calve-stone: #eef0f8;
+  --color-calve-sand: #dfe3f2;
+  --color-calve-charcoal: #181b2e;
+  --color-calve-muted: #5c6382;
+  --color-calve-accent: #737cc2;
+  --color-calve-border: #d8ddf0;
 }
 
 :root {
-  --background: #f9f9f6;
-  --foreground: #172123;
+  --background: #fcf8ed;
+  --foreground: #181b2e;
 }
 
 html {
   scroll-behavior: smooth;
-  background-color: #f9f9f6;
-  color: #172123;
+  background-color: #fcf8ed;
+  color: #181b2e;
 }
 
 body {
-  background-color: #f9f9f6;
-  color: #172123;
+  background-color: #fcf8ed;
+  color: #181b2e;
   overflow-x: clip;
   font-feature-settings: "cv02", "cv03", "cv04", "cv11";
   -webkit-font-smoothing: antialiased;
@@ -37,8 +37,8 @@ body {
 }
 
 ::selection {
-  background-color: #5b7074;
-  color: #ffffff;
+  background-color: #58639c;
+  color: #fcf8ed;
 }
 
 /* Custom subtle scrollbar */
@@ -46,14 +46,14 @@ body {
   width: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #f1efe9;
+  background: #eef0f8;
 }
 ::-webkit-scrollbar-thumb {
-  background: #5b7074;
+  background: #a5aed7;
   border-radius: 9999px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #3a4b4e;
+  background: #58639c;
 }
 
 /* Lenis smooth scrolling rules */

@@ -94,7 +94,7 @@ export async function POST(request: Request) {
       role: body.role || "Résident Partenaire",
       email: body.email,
       phone: body.phone || "",
-      spaceAssigned: body.spaceAssigned || "Bureau Privatif Maison Calvé",
+      spaceAssigned: body.spaceAssigned || "Bureau Privatif Maison Tourny",
       workstations: Number(body.workstations) || 1,
       parkingBays: body.parkingBays || "Place cour privée",
       badgeIds: body.badgeIds || [`BADGE-048-${String(Date.now()).slice(-3)}`],

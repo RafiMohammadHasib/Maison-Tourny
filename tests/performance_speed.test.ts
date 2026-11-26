@@ -53,8 +53,8 @@ describe("Speed & Latency Performance Benchmarks", () => {
     assert.ok(stats.mean < 350, `Spaces API mean latency too high: ${stats.mean}ms`);
   });
 
-  it("BENCHMARK: Static Brand Asset Delivery (/images/brand/maison-calve-logo.png)", async () => {
-    const stats = await benchmark(`${BASE_URL}/images/brand/maison-calve-logo.png`, 5);
+  it("BENCHMARK: Static Brand Asset Delivery (/images/brand/maison-tourny-logo.png)", async () => {
+    const stats = await benchmark(`${BASE_URL}/images/brand/maison-tourny-logo.png`, 5);
     console.log(`[Static Asset Logo] Latency: Min=${stats.min}ms | Mean=${stats.mean}ms | Max=${stats.max}ms | P95=${stats.p95}ms`);
     assert.ok(stats.min < 100, `Static image latency too high: ${stats.min}ms`);
   });

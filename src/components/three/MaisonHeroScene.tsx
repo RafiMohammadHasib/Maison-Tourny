@@ -34,8 +34,8 @@ export default function MaisonHeroScene({ onExploreClick }: MaisonHeroSceneProps
 
     // SCENE & RENDERER
     const scene = new THREE.Scene();
-    scene.background = new THREE.Color("#f8f8f5");
-    scene.fog = new THREE.FogExp2("#f8f8f5", 0.022);
+    scene.background = new THREE.Color("#fcf8ed");
+    scene.fog = new THREE.FogExp2("#fcf8ed", 0.022);
 
     const camera = new THREE.PerspectiveCamera(38, width / height, 0.1, 100);
     camera.position.set(0, 4.5, 14.5);
@@ -62,7 +62,7 @@ export default function MaisonHeroScene({ onExploreClick }: MaisonHeroSceneProps
     sunLight.shadow.bias = -0.0005;
     scene.add(sunLight);
 
-    const fillLight = new THREE.DirectionalLight("#a6c3ca", 0.8);
+    const fillLight = new THREE.DirectionalLight("#a5aed7", 0.8);
     fillLight.position.set(-8, 6, -5);
     scene.add(fillLight);
 
@@ -74,19 +74,19 @@ export default function MaisonHeroScene({ onExploreClick }: MaisonHeroSceneProps
     });
 
     const trimMat = new THREE.MeshStandardMaterial({
-      color: "#f5f2eb",
+      color: "#fcf8ed",
       roughness: 0.7,
       metalness: 0.05
     });
 
     const roofMat = new THREE.MeshStandardMaterial({
-      color: "#3a474a",
+      color: "#3e4675",
       roughness: 0.5,
       metalness: 0.2
     });
 
     const windowGlassMat = new THREE.MeshStandardMaterial({
-      color: "#4d6b73",
+      color: "#58639c",
       roughness: 0.1,
       metalness: 0.8,
       transparent: true,
@@ -94,7 +94,7 @@ export default function MaisonHeroScene({ onExploreClick }: MaisonHeroSceneProps
     });
 
     const gateMat = new THREE.MeshStandardMaterial({
-      color: "#2a393c",
+      color: "#222745",
       roughness: 0.4,
       metalness: 0.7
     });
@@ -351,7 +351,7 @@ export default function MaisonHeroScene({ onExploreClick }: MaisonHeroSceneProps
       <div className="relative w-full h-full min-h-[500px] overflow-hidden rounded-2xl bg-calve-stone/40 flex items-center justify-center">
         <img
           src="/images/spaces/real-open-space-fixe-4k.jpg"
-          alt="Maison Calvé - 48 rue Calvé, Bordeaux"
+          alt="Maison Tourny - 48 rue Calvé, Bordeaux"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-calve-charcoal/60 via-transparent to-transparent" />

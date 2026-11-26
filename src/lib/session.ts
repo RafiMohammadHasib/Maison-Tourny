@@ -1,5 +1,5 @@
 /**
- * Enterprise Session & Cryptographic Token Manager for Maison Calvé Admin Portal
+ * Enterprise Session & Cryptographic Token Manager for Maison Tourny Admin Portal
  *
  * Provides:
  * - Dynamic cryptographically signed session IDs (UUIDv4)

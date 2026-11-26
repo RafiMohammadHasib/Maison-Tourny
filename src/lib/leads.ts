@@ -48,7 +48,7 @@ export interface Lead {
 
 const LEADS_FILE_PATH = path.join(process.cwd(), "src", "data", "crm_leads.json");
 
-// Default authentic seed leads for Maison Calvé
+// Default authentic seed leads for Maison Tourny
 const INITIAL_SEED_LEADS: Lead[] = [
   {
     id: "MC-2026-089",

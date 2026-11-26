@@ -47,7 +47,7 @@ export const ADMIN_TRANSLATIONS: Record<AdminLanguage, Record<string, string>> =
     "nav.seo": "SEO & Redirections",
     "nav.settings": "Global Settings",
     "nav.view_site": "Voir le site public",
-    "nav.admin_user": "Administrateur Maison Calvé",
+    "nav.admin_user": "Administrateur Maison Tourny",
 
     // New Lead Modal
     "modal.title": "Nouvelle Opportunité CRM",
@@ -66,7 +66,7 @@ export const ADMIN_TRANSLATIONS: Record<AdminLanguage, Record<string, string>> =
     "modal.btn.submit": "Créer l'opportunité",
 
     // Opportunity Pipeline
-    "pipeline.breadcrumb": "MAISON CALVÉ CRM",
+    "pipeline.breadcrumb": "MAISON TOURNY CRM",
     "pipeline.title": "Opportunity Board",
     "pipeline.subtitle": "Génération de leads (Bureaux privatifs, Open Space, Salle de réunion) & visites avec gestion par étapes et glisser-déposer",
     "pipeline.search": "Rechercher un lead, adresse, service...",
@@ -91,7 +91,7 @@ export const ADMIN_TRANSLATIONS: Record<AdminLanguage, Record<string, string>> =
     "pipeline.modal.delete": "Supprimer cette opportunité",
 
     // Settings
-    "settings.breadcrumb": "CONFIGURATION DU SYSTÈME MAISON CALVÉ",
+    "settings.breadcrumb": "CONFIGURATION DU SYSTÈME MAISON TOURNY",
     "settings.title": "Paramètres & Règles Système",
     "settings.subtitle": "Gérer l'identité de l'agence, les règles locatives, intégrations et sécurité du compte.",
     "settings.last_sync": "Dernière synchro :",
@@ -108,7 +108,7 @@ export const ADMIN_TRANSLATIONS: Record<AdminLanguage, Record<string, string>> =
     "settings.identity.public_portal": "Public Portal",
     "settings.legal.title": "2. Mentions Légales & Cartes Professionnelles (Loi Hoguet)",
     "settings.rental.title": "1. Grille Tarifaire Officielle (Prix en € HT)",
-    "settings.rental.subtitle": "Tarifs affichés en direct sur le site public de Maison Calvé et les devis CRM.",
+    "settings.rental.subtitle": "Tarifs affichés en direct sur le site public de Maison Tourny et les devis CRM.",
     "settings.lease.title": "2. Conditions de Bail & Politiques Résidents",
     "settings.seo.title": "1. Référencement Naturel (SEO) & Canaux Sociaux",
     "settings.profile.title": "1. Compte Administrateur & Chiffrement Sécurisé",
@@ -116,7 +116,7 @@ export const ADMIN_TRANSLATIONS: Record<AdminLanguage, Record<string, string>> =
     "settings.backup.subtitle": "Téléchargez un instantané complet de tous les leads, baux, et visites privées.",
     "settings.backup.btn": "Télécharger Sauvegarde (.json)",
     "settings.password.title": "2. Modifier le Mot de Passe Administrateur",
-    "settings.password.subtitle": "Mettez à jour le mot de passe d'accès au portail de gestion Maison Calvé.",
+    "settings.password.subtitle": "Mettez à jour le mot de passe d'accès au portail de gestion Maison Tourny.",
     "settings.password.current": "MOT DE PASSE ACTUEL *",
     "settings.password.new": "NOUVEAU MOT DE PASSE *",
     "settings.password.confirm": "CONFIRMER LE NOUVEAU MOT DE PASSE *",
@@ -125,7 +125,7 @@ export const ADMIN_TRANSLATIONS: Record<AdminLanguage, Record<string, string>> =
     "settings.password.success": "Mot de passe administrateur modifié avec succès !",
 
     // Tours & Visits
-    "tours.breadcrumb": "MAISON CALVÉ CRM & PROTOCOL",
+    "tours.breadcrumb": "MAISON TOURNY CRM & PROTOCOL",
     "tours.title": "Private Tours & Space Viewings",
     "tours.subtitle": "Planification des visites VIP, créneaux horaires, protocole d'accueil & conversion des leads au 48 rue Calvé",
     "tours.search": "Rechercher un visiteur, société, espace...",
@@ -265,7 +265,7 @@ export const ADMIN_TRANSLATIONS: Record<AdminLanguage, Record<string, string>> =
 
     // CMS & Media
     "cms.title": "Éditeur de Contenu & Espaces (CMS)",
-    "cms.subtitle": "Modifiez les textes clés, prix en ligne et badges d'urgence affichés sur la page d'accueil de Maison Calvé.",
+    "cms.subtitle": "Modifiez les textes clés, prix en ligne et badges d'urgence affichés sur la page d'accueil de Maison Tourny.",
     "cms.preview": "Prévisualiser en direct",
     "cms.saved": "Modifications enregistrées avec succès dans le cache de production !",
     "media.title": "Médiathèque & Photothèque (48 rue Calvé)",
@@ -302,7 +302,7 @@ export const ADMIN_TRANSLATIONS: Record<AdminLanguage, Record<string, string>> =
     "nav.seo": "SEO & Redirects",
     "nav.settings": "Global Settings",
     "nav.view_site": "View live site",
-    "nav.admin_user": "Maison Calvé Administrator",
+    "nav.admin_user": "Maison Tourny Administrator",
 
     // New Lead Modal
     "modal.title": "New CRM Opportunity",
@@ -321,7 +321,7 @@ export const ADMIN_TRANSLATIONS: Record<AdminLanguage, Record<string, string>> =
     "modal.btn.submit": "Create Opportunity",
 
     // Opportunity Pipeline
-    "pipeline.breadcrumb": "MAISON CALVÉ CRM",
+    "pipeline.breadcrumb": "MAISON TOURNY CRM",
     "pipeline.title": "Opportunity Board",
     "pipeline.subtitle": "Space & tenant lead generation (Private Offices, Open Space, Meeting Room) & private tours with drag & drop conversion",
     "pipeline.search": "Search leads, address, service...",
@@ -346,7 +346,7 @@ export const ADMIN_TRANSLATIONS: Record<AdminLanguage, Record<string, string>> =
     "pipeline.modal.delete": "Delete Opportunity",
 
     // Settings
-    "settings.breadcrumb": "MAISON CALVÉ SYSTEM CONFIGURATION",
+    "settings.breadcrumb": "MAISON TOURNY SYSTEM CONFIGURATION",
     "settings.title": "Settings & System Rules",
     "settings.subtitle": "Manage agency identity, rental rules, integrations, and account security.",
     "settings.last_sync": "Last sync:",
@@ -363,7 +363,7 @@ export const ADMIN_TRANSLATIONS: Record<AdminLanguage, Record<string, string>> =
     "settings.identity.public_portal": "Public Portal",
     "settings.legal.title": "2. Legal Notice & Professional Licenses (Hoguet Law)",
     "settings.rental.title": "1. Official Rental Pricing (Prices excl. VAT)",
-    "settings.rental.subtitle": "Rates displayed live on Maison Calvé public portal and CRM quotes.",
+    "settings.rental.subtitle": "Rates displayed live on Maison Tourny public portal and CRM quotes.",
     "settings.lease.title": "2. Lease Conditions & Resident Policies",
     "settings.seo.title": "1. Search Engine Optimization (SEO) & Social Channels",
     "settings.profile.title": "1. Administrator Account & Cryptographic Security",
@@ -371,7 +371,7 @@ export const ADMIN_TRANSLATIONS: Record<AdminLanguage, Record<string, string>> =
     "settings.backup.subtitle": "Download a full JSON snapshot of all leads, leases, and scheduled private tours.",
     "settings.backup.btn": "Download Backup (.json)",
     "settings.password.title": "2. Change Administrator Password",
-    "settings.password.subtitle": "Update your access credentials for the Maison Calvé admin management portal.",
+    "settings.password.subtitle": "Update your access credentials for the Maison Tourny admin management portal.",
     "settings.password.current": "CURRENT PASSWORD *",
     "settings.password.new": "NEW PASSWORD *",
     "settings.password.confirm": "CONFIRM NEW PASSWORD *",
@@ -380,7 +380,7 @@ export const ADMIN_TRANSLATIONS: Record<AdminLanguage, Record<string, string>> =
     "settings.password.success": "Administrator password updated successfully!",
 
     // Tours & Visits
-    "tours.breadcrumb": "MAISON CALVÉ CRM & PROTOCOL",
+    "tours.breadcrumb": "MAISON TOURNY CRM & PROTOCOL",
     "tours.title": "Private Tours & Space Viewings",
     "tours.subtitle": "VIP visit scheduling, calendar time-slots, reception protocol & lead conversion tracking for 48 rue Calvé",
     "tours.search": "Search visitor, company, space...",
@@ -520,7 +520,7 @@ export const ADMIN_TRANSLATIONS: Record<AdminLanguage, Record<string, string>> =
 
     // CMS & Media
     "cms.title": "Content & Space Editor (CMS)",
-    "cms.subtitle": "Edit key hero copy, online pricing, and urgency tags displayed on the Maison Calvé website.",
+    "cms.subtitle": "Edit key hero copy, online pricing, and urgency tags displayed on the Maison Tourny website.",
     "cms.preview": "Live Preview",
     "cms.saved": "Changes successfully saved to production cache!",
     "media.title": "Media & Photo Library (48 rue Calvé)",

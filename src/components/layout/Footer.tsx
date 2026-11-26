@@ -27,7 +27,7 @@ export default function Footer({
         className="absolute right-0 top-[40%] sm:top-1/3 -translate-y-1/2 select-none pointer-events-none text-right opacity-[0.05] sm:opacity-[0.035] leading-[0.76] font-black tracking-tighter lowercase text-white block overflow-hidden max-w-full"
       >
         <span className="text-[6rem] sm:text-[9rem] md:text-[11rem] xl:text-[14rem] block">maison</span>
-        <span className="text-[6rem] sm:text-[9rem] md:text-[11rem] xl:text-[14rem] block -mt-5 sm:-mt-8 xl:-mt-12">calvé</span>
+        <span className="text-[6rem] sm:text-[9rem] md:text-[11rem] xl:text-[14rem] block -mt-5 sm:-mt-8 xl:-mt-12">tourny</span>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -161,7 +161,7 @@ export default function Footer({
             <div>
               <button
                 onClick={() => onOpenEnquiry("office")}
-                className="w-full py-3.5 px-6 rounded-xl bg-calve-slate hover:bg-calve-slate-light text-white text-xs font-semibold uppercase tracking-wider transition-colors shadow-xs cursor-pointer"
+                className="w-full py-3.5 px-6 rounded-xl bg-calve-slate hover:bg-calve-slate-dark text-white text-xs font-semibold uppercase tracking-wider transition-colors shadow-xs cursor-pointer"
               >
                 {language === "en"
                   ? "Schedule a tour at 48 rue Calvé"
@@ -227,7 +227,7 @@ export default function Footer({
         {/* Bottom Bar: Copyright, Credits & Language Selector */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-stone-500 relative z-10">
           <div className="flex items-center gap-2 flex-wrap">
-            <span>© {new Date().getFullYear()} Maison Calvé Bordeaux. {t.rights}</span>
+            <span>© {new Date().getFullYear()} Maison Tourny Bordeaux. {t.rights}</span>
             <span className="text-stone-600">·</span>
             <span>
               {language === "en" ? "Created by" : language === "es" ? "Creado por" : "Créé par"}{" "}

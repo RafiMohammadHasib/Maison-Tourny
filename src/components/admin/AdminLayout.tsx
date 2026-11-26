@@ -283,8 +283,8 @@ export default function AdminLayout({
             <Link href="/admin" className="flex items-center gap-3">
               <div className="relative w-10 h-10 rounded-xl overflow-hidden shadow-xs border border-calve-slate/15 shrink-0">
                 <Image
-                  src="/images/brand/maison-calve-logo.png"
-                  alt="Maison Calvé"
+                  src="/images/brand/maison-tourny-logo.png"
+                  alt="Maison Tourny"
                   fill
                   sizes="40px"
                   className="object-cover"
@@ -292,7 +292,7 @@ export default function AdminLayout({
               </div>
               <div>
                 <div className="font-extrabold text-sm tracking-tight text-calve-charcoal leading-tight">
-                  MAISON CALVÉ
+                  MAISON TOURNY
                 </div>
                 <div className="text-[10px] font-semibold uppercase tracking-widest text-slate-500">
                   ESPACE GESTION
@@ -531,7 +531,7 @@ export default function AdminLayout({
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-2">
               <div>
                 <div className="text-[11px] font-semibold uppercase tracking-widest text-slate-500 flex items-center gap-2 mb-1">
-                  <span>MAISON CALVÉ</span>
+                  <span>MAISON TOURNY</span>
                   <span>•</span>
                   <span>48 RUE CALVÉ, BORDEAUX</span>
                 </div>

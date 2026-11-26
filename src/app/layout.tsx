@@ -18,7 +18,7 @@ const jakartaSans = Plus_Jakarta_Sans({
 });
 
 export const viewport: Viewport = {
-  themeColor: "#5b7074",
+  themeColor: "#a5aed7",
   width: "device-width",
   initialScale: 1
 };
@@ -28,10 +28,10 @@ export async function generateMetadata(): Promise<Metadata> {
   const seo = settings.settings_seo || DEFAULT_SEO_SETTINGS;
 
   const canonicalUrl = seo.canonicalUrl || "https://maisoncalve.fr";
-  const title = seo.metaTitle || "Maison Calvé — Coworking Bordeaux Fondaudège avec Parking";
+  const title = seo.metaTitle || "Maison Tourny — Coworking Bordeaux Fondaudège avec Parking";
   const description =
     seo.metaDescription ||
-    "Maison Calvé : espace de coworking haut de gamme à Bordeaux Fondaudège (48 rue Calvé). 5 bureaux privatifs, open space feutré, salle de réunion 30m² et 9 places de parking privatives sécurisées.";
+    "Maison Tourny : espace de coworking haut de gamme à Bordeaux Fondaudège (48 rue Calvé). 5 bureaux privatifs, open space feutré, salle de réunion 30m² et 9 places de parking privatives sécurisées.";
 
   const rawKeywords =
     seo.metaKeywords ||
@@ -57,15 +57,15 @@ export async function generateMetadata(): Promise<Metadata> {
       icon: [
         { url: "/favicon.ico", sizes: "any" },
         { url: "/icon.png", type: "image/png", sizes: "64x64" },
-        { url: "/images/brand/maison-calve-logo.png", type: "image/png", sizes: "512x512" },
+        { url: "/images/brand/maison-tourny-logo.png", type: "image/png", sizes: "1024x1024" },
         { url: "/icon.svg", type: "image/svg+xml" }
       ],
       apple: [{ url: "/apple-icon.png", sizes: "180x180", type: "image/png" }]
     },
     manifest: "/site.webmanifest",
-    authors: [{ name: "Maison Calvé" }],
-    creator: "Maison Calvé",
-    publisher: "Maison Calvé",
+    authors: [{ name: "Maison Tourny" }],
+    creator: "Maison Tourny",
+    publisher: "Maison Tourny",
     formatDetection: {
       email: false,
       address: false,
@@ -83,13 +83,13 @@ export async function generateMetadata(): Promise<Metadata> {
       title: ogTitle,
       description: ogDescription,
       url: canonicalUrl,
-      siteName: "Maison Calvé",
+      siteName: "Maison Tourny",
       images: [
         {
           url: ogImage,
           width: 1200,
           height: 800,
-          alt: "Maison Calvé - Coworking Hôtel Particulier Bordeaux Fondaudège"
+          alt: "Maison Tourny - Coworking Hôtel Particulier Bordeaux Fondaudège"
         }
       ],
       locale: "fr_FR",

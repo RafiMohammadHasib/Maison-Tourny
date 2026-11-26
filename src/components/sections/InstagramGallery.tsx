@@ -24,7 +24,7 @@ interface InstagramGalleryProps {
 
 const PROFILE = {
   username: "maisoncalvebordeaux",
-  fullName: "Maison Calvé · Coworking Bordeaux",
+  fullName: "Maison Tourny · Coworking Bordeaux",
   postsCount: 17,
   followersCount: 480,
   followingCount: 12,
@@ -100,7 +100,7 @@ const INSTAGRAM_POSTS: InstagramPost[] = [
     type: "single",
     likes: 82,
     commentsCount: 9,
-    location: "Maison Calvé, Bordeaux",
+    location: "Maison Tourny, Bordeaux",
     timeAgo: {
       fr: "Il y a 4 jours",
       en: "4 days ago",
@@ -120,7 +120,7 @@ const INSTAGRAM_POSTS: InstagramPost[] = [
     slidesCount: 4,
     likes: 71,
     commentsCount: 5,
-    location: "Maison Calvé — Open Space",
+    location: "Maison Tourny — Open Space",
     timeAgo: {
       fr: "Il y a 6 jours",
       en: "6 days ago",
@@ -139,7 +139,7 @@ const INSTAGRAM_POSTS: InstagramPost[] = [
     type: "single",
     likes: 56,
     commentsCount: 4,
-    location: "Maison Calvé — Cuisine Équipée",
+    location: "Maison Tourny — Cuisine Équipée",
     timeAgo: {
       fr: "Il y a 1 semaine",
       en: "1 week ago",
@@ -159,7 +159,7 @@ const INSTAGRAM_POSTS: InstagramPost[] = [
     slidesCount: 3,
     likes: 93,
     commentsCount: 11,
-    location: "Maison Calvé — Salle de Réunion",
+    location: "Maison Tourny — Salle de Réunion",
     timeAgo: {
       fr: "Il y a 1 semaine",
       en: "1 week ago",
@@ -185,9 +185,9 @@ const INSTAGRAM_POSTS: InstagramPost[] = [
       es: "Hace 2 semanas",
     },
     caption: {
-      fr: "Signalétique sobre et élégante au cœur de la Maison Calvé. Un lieu pensé dans les moindres détails pour les professionnels exigeants. 🧭",
-      en: "Minimal and refined architectural signage at Maison Calvé. Crafted with care for exacting professionals. 🧭",
-      es: "Señalética sobria y elegante en el corazón de Maison Calvé. Espacios diseñados con el máximo cuidado. 🧭",
+      fr: "Signalétique sobre et élégante au cœur de la Maison Tourny. Un lieu pensé dans les moindres détails pour les professionnels exigeants. 🧭",
+      en: "Minimal and refined architectural signage at Maison Tourny. Crafted with care for exacting professionals. 🧭",
+      es: "Señalética sobria y elegante en el corazón de Maison Tourny. Espacios diseñados con el máximo cuidado. 🧭",
     },
     tags: ["#DesignInterieur", "#ArchitectureBordeaux", "#HôtelParticulier"],
   },
@@ -204,9 +204,9 @@ const INSTAGRAM_POSTS: InstagramPost[] = [
       es: "Hace 2 semanas",
     },
     caption: {
-      fr: "Accès immédiat par le Tram D : à 2 minutes à pied de la Maison Calvé ! Connexion express avec les Quinconces, la Gare Saint-Jean et Mérignac. La mobilité sans contrainte. 🚊",
-      en: "Effortless transit via Tram Line D: only 2 minutes on foot to Maison Calvé! Direct link to Place des Quinconces and Saint-Jean Station. 🚊",
-      es: "Acceso inmediato mediante el tranvía D: ¡a 2 minutos a pie de Maison Calvé! Conexión directa con Quinconces y la Estación Saint-Jean. 🚊",
+      fr: "Accès immédiat par le Tram D : à 2 minutes à pied de la Maison Tourny ! Connexion express avec les Quinconces, la Gare Saint-Jean et Mérignac. La mobilité sans contrainte. 🚊",
+      en: "Effortless transit via Tram Line D: only 2 minutes on foot to Maison Tourny! Direct link to Place des Quinconces and Saint-Jean Station. 🚊",
+      es: "Acceso inmediato mediante el tranvía D: ¡a 2 minutos a pie de Maison Tourny! Conexión directa con Quinconces y la Estación Saint-Jean. 🚊",
     },
     tags: ["#TramDBordeaux", "#MobiliteBordeaux", "#QuartierFondaudege"],
   },
@@ -261,9 +261,9 @@ const INSTAGRAM_POSTS: InstagramPost[] = [
       es: "Hace 3 semanas",
     },
     caption: {
-      fr: "« Près de chez toi » — Un écosystème à taille humaine pensé pour votre épanouissement au cœur du quartier Fondaudège. Bienvenue à la Maison Calvé ! 🌿✨",
-      en: "“Close to home” — A human-scale workspace crafted for your daily fulfillment in the Fondaudège district. Welcome to Maison Calvé! 🌿✨",
-      es: "“Cerca de ti” — Un espacio a escala humana pensado para su desarrollo en el corazón de Fondaudège. ¡Bienvenidos a Maison Calvé! 🌿✨",
+      fr: "« Près de chez toi » — Un écosystème à taille humaine pensé pour votre épanouissement au cœur du quartier Fondaudège. Bienvenue à la Maison Tourny ! 🌿✨",
+      en: "“Close to home” — A human-scale workspace crafted for your daily fulfillment in the Fondaudège district. Welcome to Maison Tourny! 🌿✨",
+      es: "“Cerca de ti” — Un espacio a escala humana pensado para su desarrollo en el corazón de Fondaudège. ¡Bienvenidos a Maison Tourny! 🌿✨",
     },
     tags: ["#MaisonCalve", "#PresDeChezToi", "#BordeauxFondaudege", "#CoworkingBordeaux"],
   },
@@ -336,7 +336,7 @@ export default function InstagramGallery({ language }: InstagramGalleryProps) {
   const t = {
     fr: {
       tag: "Vrai Quotidien — Instagram",
-      title: "La Maison Calvé sur Instagram",
+      title: "La Maison Tourny sur Instagram",
       subtitle:
         "Découvrez l'ambiance authentique, les espaces de travail et le quotidien de notre communauté bordelaise.",
       follow: "S'abonner",
@@ -358,7 +358,7 @@ export default function InstagramGallery({ language }: InstagramGalleryProps) {
     },
     en: {
       tag: "Authentic Life — Instagram",
-      title: "Maison Calvé on Instagram",
+      title: "Maison Tourny on Instagram",
       subtitle:
         "Experience the authentic atmosphere, workspaces, and daily rhythm of our community in Bordeaux.",
       follow: "Follow",
@@ -380,7 +380,7 @@ export default function InstagramGallery({ language }: InstagramGalleryProps) {
     },
     es: {
       tag: "Vida Real — Instagram",
-      title: "Maison Calvé en Instagram",
+      title: "Maison Tourny en Instagram",
       subtitle:
         "Descubra el ambiente auténtico, los espacios de trabajo y el día a día de nuestra comunidad en Burdeos.",
       follow: "Seguir",
@@ -433,7 +433,7 @@ export default function InstagramGallery({ language }: InstagramGalleryProps) {
                   <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-full bg-calve-stone flex items-center justify-center overflow-hidden border border-calve-border">
                     <img
                       src={PROFILE.avatarImage}
-                      alt="Maison Calvé Instagram Profile"
+                      alt="Maison Tourny Instagram Profile"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -605,9 +605,9 @@ export default function InstagramGallery({ language }: InstagramGalleryProps) {
           </div>
 
           {/* Bottom Call-To-Action Banner (Goizet Gestion Signature Design) */}
-          <div className="bg-gradient-to-r from-calve-charcoal via-[#233134] to-calve-charcoal rounded-3xl p-8 sm:p-10 text-white flex flex-col sm:flex-row items-center justify-between gap-6 shadow-xl border border-white/10 mt-8">
+          <div className="bg-gradient-to-r from-calve-charcoal via-[#222745] to-calve-charcoal rounded-3xl p-8 sm:p-10 text-white flex flex-col sm:flex-row items-center justify-between gap-6 shadow-xl border border-white/10 mt-8">
             <div className="space-y-2 text-center sm:text-left">
-              <div className="inline-flex items-center space-x-2 text-xs font-semibold text-emerald-400">
+              <div className="inline-flex items-center space-x-2 text-xs font-semibold text-calve-slate-light">
                 <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
                   <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
                 </svg>

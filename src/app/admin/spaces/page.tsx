@@ -82,7 +82,7 @@ const PHOTO_LIBRARY = [
   },
   {
     url: "/images/calve-exterior.jpg",
-    label: "Façade Extérieure Maison Calvé",
+    label: "Façade Extérieure Maison Tourny",
     enLabel: "Exterior Facade 48 rue Calvé"
   }
 ];

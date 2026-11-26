@@ -112,7 +112,7 @@ export function removeCustomSpace(id: string): boolean {
   return false;
 }
 
-// Foundational resident partner for Maison Calvé (permanent on-site partner)
+// Foundational resident partner for Maison Tourny (permanent on-site partner)
 const BASE_TENANTS: TenantRecord[] = [
   {
     id: "TEN-001",
@@ -137,7 +137,7 @@ export function getUnifiedTenants(providedLeads?: Lead[]): TenantRecord[] {
   const wonLeads = leads.filter((l) => l.status === "won");
 
   const crmTenants: TenantRecord[] = wonLeads.map((lead, idx) => {
-    let spaceName = "Bureau Privatif Maison Calvé";
+    let spaceName = "Bureau Privatif Maison Tourny";
     let rentStr = "950 € HT / mois";
     let workstations = lead.workstationCount || 1;
     let parking = "Cour privée (place incluse)";

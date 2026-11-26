@@ -90,7 +90,7 @@ export default function LocationMap({ language }: LocationMapProps) {
           {/* Interactive Styled Map View Card */}
           <div className="lg:col-span-6 min-h-[380px] rounded-3xl overflow-hidden border border-calve-border bg-white shadow-xs relative flex flex-col justify-between p-6 sm:p-8">
             {/* Map visual graphic representation with street coordinates */}
-            <div className="absolute inset-0 bg-[#f4f2ea] opacity-90">
+            <div className="absolute inset-0 bg-[#f3f4fa] opacity-90">
               {/* Stylized street lines */}
               <svg className="w-full h-full text-calve-border/70" xmlns="http://www.w3.org/2000/svg">
                 <defs>
@@ -100,10 +100,10 @@ export default function LocationMap({ language }: LocationMapProps) {
                 </defs>
                 <rect width="100%" height="100%" fill="url(#grid)" />
                 {/* Major streets */}
-                <line x1="0" y1="35%" x2="100%" y2="45%" stroke="#d3cdc0" strokeWidth="10" />
-                <line x1="20%" y1="0" x2="30%" y2="100%" stroke="#d3cdc0" strokeWidth="8" />
-                <line x1="65%" y1="0" x2="75%" y2="100%" stroke="#d3cdc0" strokeWidth="8" />
-                <circle cx="48%" cy="40%" r="30" fill="#586f73" fillOpacity="0.15" />
+                <line x1="0" y1="35%" x2="100%" y2="45%" stroke="#d3d7ec" strokeWidth="10" />
+                <line x1="20%" y1="0" x2="30%" y2="100%" stroke="#d3d7ec" strokeWidth="8" />
+                <line x1="65%" y1="0" x2="75%" y2="100%" stroke="#d3d7ec" strokeWidth="8" />
+                <circle cx="48%" cy="40%" r="30" fill="#a5aed7" fillOpacity="0.25" />
               </svg>
             </div>
 
@@ -124,7 +124,7 @@ export default function LocationMap({ language }: LocationMapProps) {
               </div>
               <div className="mt-3 bg-white/95 backdrop-blur-md px-4 py-2 rounded-xl border border-calve-border shadow-md inline-block">
                 <span className="text-xs font-extrabold tracking-tight text-calve-charcoal block">
-                  Maison Calvé
+                  Maison Tourny
                 </span>
                 <span className="text-[11px] text-calve-slate font-medium block">
                   {language === "en"

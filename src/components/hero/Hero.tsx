@@ -83,7 +83,7 @@ export default function Hero({ language, onOpenEnquiry }: HeroProps) {
   return (
     <section className="relative pt-28 pb-12 sm:pt-36 sm:pb-20 overflow-hidden bg-gradient-to-b from-calve-stone/30 via-calve-cream to-white">
       {/* Background Subtle Architectural Grid */}
-      <div className="absolute inset-0 opacity-[0.02] pointer-events-none bg-[radial-gradient(#172123_1px,transparent_1px)] [background-size:24px_24px]" />
+      <div className="absolute inset-0 opacity-[0.02] pointer-events-none bg-[radial-gradient(#181b2e_1px,transparent_1px)] [background-size:24px_24px]" />
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Top Heritage Overline: Quiet Editorial Typography */}
@@ -99,7 +99,7 @@ export default function Hero({ language, onOpenEnquiry }: HeroProps) {
         <div className="text-center space-y-3 mb-8" data-reveal="fade-up">
           <div className="flex flex-col items-center justify-center font-extrabold tracking-tighter lowercase leading-[0.82] text-5xl sm:text-7xl md:text-8xl lg:text-9xl selection:bg-calve-slate selection:text-white">
             <span className="text-calve-slate">maison</span>
-            <span className="text-calve-slate">calvé</span>
+            <span className="text-calve-slate">tourny</span>
           </div>
 
           <div className="flex items-center justify-center gap-1.5 text-xs text-calve-muted font-medium pt-2">
@@ -108,8 +108,8 @@ export default function Hero({ language, onOpenEnquiry }: HeroProps) {
               {language === "en"
                 ? "48 rue Calvé, 33000 Bordeaux (Fondaudège District)"
                 : language === "es"
-                ? "48 rue Calvé, 33000 Burdeos (Barrio Fondaudège)"
-                : "48 rue Calvé, 33000 Bordeaux (Quartier Fondaudège)"}
+                  ? "48 rue Calvé, 33000 Burdeos (Barrio Fondaudège)"
+                  : "48 rue Calvé, 33000 Bordeaux (Quartier Fondaudège)"}
             </span>
           </div>
         </div>
@@ -148,8 +148,8 @@ export default function Hero({ language, onOpenEnquiry }: HeroProps) {
               {language === "en"
                 ? "Direct contact with resident team: +33 6 95 57 70 33 · Tours on appointment"
                 : language === "es"
-                ? "Atención directa con el equipo: +33 6 95 57 70 33 · Visitas con cita previa"
-                : "Échange direct avec l'équipe résidente : 06 95 57 70 33 · Visites sur rendez-vous"}
+                  ? "Atención directa con el equipo: +33 6 95 57 70 33 · Visitas con cita previa"
+                  : "Échange direct avec l'équipe résidente : 06 95 57 70 33 · Visites sur rendez-vous"}
             </span>
           </div>
         </div>

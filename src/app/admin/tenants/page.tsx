@@ -560,7 +560,7 @@ export default function TenantsPage() {
                   <div className="flex items-start justify-between gap-3">
                     {/* Left: Avatar + Company + Contact Person + Badges */}
                     <div className="flex items-start gap-3 sm:gap-4 min-w-0">
-                      <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl bg-gradient-to-br from-[#2D4B49] via-[#1E3331] to-[#111F1E] text-white font-extrabold text-xs sm:text-sm flex items-center justify-center shrink-0 shadow-xs border border-white/10">
+                      <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl bg-gradient-to-br from-[#58639c] via-[#3e4675] to-[#181b2e] text-white font-extrabold text-xs sm:text-sm flex items-center justify-center shrink-0 shadow-xs border border-white/10">
                         {initials}
                       </div>
                       <div className="min-w-0">

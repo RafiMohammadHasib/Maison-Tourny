@@ -957,9 +957,9 @@ export default function AdminDashboardPage() {
               <svg className="w-full h-full overflow-visible" viewBox="0 0 600 160">
                 <defs>
                   <linearGradient id="leadSplineGradient" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="0%" stopColor="#2D4B49" stopOpacity="0.22" />
-                    <stop offset="50%" stopColor="#2D4B49" stopOpacity="0.08" />
-                    <stop offset="100%" stopColor="#2D4B49" stopOpacity="0.0" />
+                    <stop offset="0%" stopColor="#58639c" stopOpacity="0.22" />
+                    <stop offset="50%" stopColor="#58639c" stopOpacity="0.08" />
+                    <stop offset="100%" stopColor="#58639c" stopOpacity="0.0" />
                   </linearGradient>
                 </defs>
 
@@ -999,7 +999,7 @@ export default function AdminDashboardPage() {
                     y1="22"
                     x2={chartComputed.points[hoveredPointIdx].x}
                     y2={chartComputed.yBaseline}
-                    stroke="#2D4B49"
+                    stroke="#58639c"
                     strokeWidth="1.2"
                     strokeDasharray="3 3"
                     className="transition-all duration-150"
@@ -1010,7 +1010,7 @@ export default function AdminDashboardPage() {
                 <path
                   d={chartComputed.curvePath}
                   fill="none"
-                  stroke="#2D4B49"
+                  stroke="#58639c"
                   strokeWidth="3.2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -1035,7 +1035,7 @@ export default function AdminDashboardPage() {
                           cx={pt.x}
                           cy={pt.y}
                           r={14}
-                          fill="#2D4B49"
+                          fill="#58639c"
                           opacity={0.18}
                           className="transition-all duration-200"
                         />
@@ -1044,7 +1044,7 @@ export default function AdminDashboardPage() {
                           cx={pt.x}
                           cy={pt.y}
                           r={8}
-                          fill="#2D4B49"
+                          fill="#58639c"
                           opacity={0.15}
                           className="animate-pulse"
                         />
@@ -1056,7 +1056,7 @@ export default function AdminDashboardPage() {
                         cy={pt.y}
                         r={isHovered ? 6 : isPeak ? 5 : 4.5}
                         fill="#ffffff"
-                        stroke="#2D4B49"
+                        stroke="#58639c"
                         strokeWidth={isHovered ? 3.5 : 2.5}
                         className="transition-all duration-200"
                       />

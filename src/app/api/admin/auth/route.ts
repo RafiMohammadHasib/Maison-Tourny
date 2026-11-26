@@ -29,7 +29,7 @@ export async function POST(request: Request) {
             password === storedPass
           ) {
             user = {
-              name: "Administrateur Maison Calvé",
+              name: "Administrateur Maison Tourny",
               email: ovhRes.value.email || "admin@maisoncalve.fr",
               role: "Super Admin"
             };
@@ -78,7 +78,7 @@ export async function POST(request: Request) {
         name: user.name,
         email: user.email,
         role: user.role,
-        workspace: "Maison Calvé - Bordeaux Fondaudège"
+        workspace: "Maison Tourny - Bordeaux Fondaudège"
       }
     });
 
@@ -106,7 +106,7 @@ export async function GET() {
       const config = getAdminConfig();
 
       const user = sessionUser || {
-        name: config.name || "Administrateur Maison Calvé",
+        name: config.name || "Administrateur Maison Tourny",
         email: config.email || ADMIN_EMAIL,
         role: "Super Admin"
       };
@@ -118,7 +118,7 @@ export async function GET() {
           name: user.name,
           email: user.email,
           role: user.role || "Super Admin",
-          workspace: "Maison Calvé - Bordeaux Fondaudège"
+          workspace: "Maison Tourny - Bordeaux Fondaudège"
         }
       });
     }

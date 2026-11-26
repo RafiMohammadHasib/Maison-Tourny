@@ -20,13 +20,13 @@ export default function ComparisonSection({
       title: "Notre positionnement face à la concurrence",
       subtitle: "Nous plaçons l'expérience client et la sérénité de travail en priorité absolue.",
       badLabel: "Coworking classique",
-      goodLabel: "Maison Calvé",
+      goodLabel: "Maison Tourny",
       goodBadge: "Le Standard Calvé",
       cta: "Réserver votre bureau ou poste",
       ctaSub: "Venez visiter les lieux au 48 rue Calvé et constatez vous-même le calme et l'acoustique.",
-      ctaTitle: "Convaincu par l'expérience Maison Calvé ?",
+      ctaTitle: "Convaincu par l'expérience Maison Tourny ?",
       filterAll: "Face à face",
-      filterCalve: "Maison Calvé",
+      filterCalve: "Maison Tourny",
       filterStandard: "Classique",
       guaranteeTag: "Privilège Résident",
       commonTag: "Standard du Marché",
@@ -65,17 +65,17 @@ export default function ComparisonSection({
       ],
     },
     en: {
-      tag: "Why Choose Maison Calvé",
+      tag: "Why Choose Maison Tourny",
       title: "Our positioning against the competition",
       subtitle: "We place client experience and deep-work serenity as our absolute priority.",
       badLabel: "Standard Coworking",
-      goodLabel: "Maison Calvé",
+      goodLabel: "Maison Tourny",
       goodBadge: "The Calvé Standard",
       cta: "Schedule a private tour",
       ctaSub: "Schedule a private viewing at 48 rue Calvé to experience the acoustic calm firsthand.",
       ctaTitle: "Ready to experience the difference?",
       filterAll: "Side by side",
-      filterCalve: "Maison Calvé",
+      filterCalve: "Maison Tourny",
       filterStandard: "Standard",
       guaranteeTag: "Resident Privilege",
       commonTag: "Industry Norm",
@@ -118,13 +118,13 @@ export default function ComparisonSection({
       title: "Nuestro posicionamiento frente a la competencia",
       subtitle: "Situamos la experiencia del cliente y la serenidad de trabajo como prioridad absoluta.",
       badLabel: "Coworking clásico",
-      goodLabel: "Maison Calvé",
+      goodLabel: "Maison Tourny",
       goodBadge: "El Estándar Calvé",
       cta: "Solicitar una visita privada",
       ctaSub: "Visite nuestras instalaciones en el 48 rue Calvé y compruebe usted mismo el silencio y la acústica.",
       ctaTitle: "¿Listo para notar la diferencia?",
       filterAll: "Comparativa",
-      filterCalve: "Maison Calvé",
+      filterCalve: "Maison Tourny",
       filterStandard: "Estándar",
       guaranteeTag: "Privilegio Residente",
       commonTag: "Mercado Habitual",
@@ -198,7 +198,7 @@ export default function ComparisonSection({
                   key={idx}
                   className="bg-white rounded-2xl border border-calve-border/90 shadow-2xs overflow-hidden transition-all"
                 >
-                  {/* Card Header & Maison Calvé Core Advantage */}
+                  {/* Card Header & Maison Tourny Core Advantage */}
                   <div className="p-4 sm:p-5 space-y-3">
                     {/* Header with Icon, Title and Step Counter */}
                     <div className="flex items-center justify-between gap-3 pb-2.5 border-b border-calve-border/60">
@@ -215,7 +215,7 @@ export default function ComparisonSection({
                       </span>
                     </div>
 
-                    {/* Maison Calvé Privilege Feature */}
+                    {/* Maison Tourny Privilege Feature */}
                     <div className="space-y-1.5 pt-0.5">
                       <div className="flex items-center justify-between gap-2">
                         <div className="flex items-center gap-1.5">
@@ -282,17 +282,17 @@ export default function ComparisonSection({
               </div>
             </div>
 
-            {/* Col 3: Maison Calvé (Elevated Signature Column) */}
-            <div className="col-span-4 p-5 sm:p-6 bg-emerald-50/50">
+            {/* Col 3: Maison Tourny (Elevated Signature Column) */}
+            <div className="col-span-4 p-5 sm:p-6 bg-calve-stone/70">
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
-                  <span className="w-2 h-2 rounded-full bg-emerald-600" />
-                  <span className="text-xs font-extrabold uppercase tracking-wider text-emerald-950">
+                  <span className="w-2 h-2 rounded-full bg-calve-slate" />
+                  <span className="text-xs font-extrabold uppercase tracking-wider text-calve-charcoal">
                     {content.goodLabel}
                   </span>
                 </div>
-                <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-emerald-700 text-white text-[10px] font-bold tracking-wide uppercase shadow-2xs">
-                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-300" />
+                <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-calve-slate text-white text-[10px] font-bold tracking-wide uppercase shadow-2xs">
+                  <span className="w-1.5 h-1.5 rounded-full bg-calve-slate-light" />
                   <span>{content.goodBadge}</span>
                 </span>
               </div>
@@ -329,12 +329,12 @@ export default function ComparisonSection({
                   </p>
                 </div>
 
-                {/* Maison Calvé / Good side (Signature Light Emerald Highlight) */}
-                <div className="col-span-4 p-5 sm:p-6 flex items-start gap-3 bg-emerald-50/30">
-                  <div className="w-5 h-5 rounded-full bg-emerald-700 text-white flex items-center justify-center shrink-0 mt-0.5 shadow-2xs">
+                {/* Maison Tourny / Good side (Signature Periwinkle Highlight) */}
+                <div className="col-span-4 p-5 sm:p-6 flex items-start gap-3 bg-calve-stone/45">
+                  <div className="w-5 h-5 rounded-full bg-calve-slate text-white flex items-center justify-center shrink-0 mt-0.5 shadow-2xs">
                     <Check className="w-3 h-3 stroke-[3]" />
                   </div>
-                  <p className="text-xs sm:text-sm font-medium text-emerald-950 leading-relaxed">
+                  <p className="text-xs sm:text-sm font-medium text-calve-charcoal leading-relaxed">
                     {row.good}
                   </p>
                 </div>

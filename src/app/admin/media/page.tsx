@@ -132,7 +132,7 @@ const RAW_ASSETS: MediaAsset[] = [
     category: "hero",
     size: "98 KB",
     dims: "1080x1080",
-    alt: "Affiche Culturelle Maison Calvé"
+    alt: "Affiche Culturelle Maison Tourny"
   },
   {
     name: "maison-calve-signage.jpg",
@@ -166,7 +166,7 @@ const RAW_ASSETS: MediaAsset[] = [
     category: "instagram",
     size: "116 KB",
     dims: "640x640",
-    alt: "Carnet Maison Calvé & Badge RFID Sécurisé"
+    alt: "Carnet Maison Tourny & Badge RFID Sécurisé"
   },
   {
     name: "insta-media-101.jpg",
@@ -182,7 +182,7 @@ const RAW_ASSETS: MediaAsset[] = [
     category: "instagram",
     size: "17 KB",
     dims: "640x640",
-    alt: "Ambiance de Travail & Esprit Maison Calvé"
+    alt: "Ambiance de Travail & Esprit Maison Tourny"
   }
 ];
 

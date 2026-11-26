@@ -102,7 +102,7 @@ export default function Manifesto({ language, onOpenEnquiry }: ManifestoProps) {
             <div className="relative rounded-3xl overflow-hidden shadow-lg border border-calve-border/80 aspect-4/3 sm:aspect-16/11 group bg-stone-100">
               <img
                 src="/images/spaces/real-office-21m-4k.jpg"
-                alt="Bureau privatif 21 m² Maison Calvé avec mur d'accent bleu cobalt et parquet chaleureux"
+                alt="Bureau privatif 21 m² Maison Tourny avec mur d'accent bleu cobalt et parquet chaleureux"
                 className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent pointer-events-none" />

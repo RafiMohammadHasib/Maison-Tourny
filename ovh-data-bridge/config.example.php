@@ -1,6 +1,6 @@
 <?php
 /**
- * Maison Calvé — OVH Database Bridge Configuration Example
+ * Maison Tourny — OVH Database Bridge Configuration Example
  * Copy this file to config.php and fill in your credentials.
  */
 

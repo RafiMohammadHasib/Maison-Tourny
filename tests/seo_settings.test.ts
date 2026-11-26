@@ -15,7 +15,7 @@ describe("6. Unit Tests: SEO & Google Analytics Settings & Persistence", () => {
     assert.ok(settings.settings_seo, "settings_seo should exist");
     assert.strictEqual(settings.settings_seo?.googleTagId, "GTM-K7CVNBTS");
     assert.strictEqual(settings.settings_seo?.googleTagEnabled, true);
-    assert.ok(settings.settings_seo?.metaTitle.includes("Maison Calvé"));
+    assert.ok(settings.settings_seo?.metaTitle.includes("Maison Tourny"));
   });
 
   test("persists secondary GA4, Google verification and custom scripts", async () => {

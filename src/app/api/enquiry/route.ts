@@ -87,7 +87,7 @@ export async function POST(request: Request) {
     }
 
     console.log("=========================================");
-    console.log(`🔔 [MAISON CALVÉ CRM] NOUVEAU LEAD ENREGISTRÉ: ${savedLead.id}`);
+    console.log(`🔔 [MAISON TOURNY CRM] NOUVEAU LEAD ENREGISTRÉ: ${savedLead.id}`);
     console.log(`Source: ${savedLead.source}`);
     console.log(`Contact: ${savedLead.name} (${savedLead.email} | ${savedLead.phone})`);
     console.log(`Entreprise: ${savedLead.company || "Non renseignée"}`);
@@ -97,14 +97,14 @@ export async function POST(request: Request) {
 
     return NextResponse.json({
       success: true,
-      message: "Demande enregistrée avec succès. L'équipe Maison Calvé prendra contact très prochainement.",
+      message: "Demande enregistrée avec succès. L'équipe Maison Tourny prendra contact très prochainement.",
       lead: savedLead,
       leadId: savedLead.id,
       ovhSynced,
       receivedAt: savedLead.createdAt
     });
   } catch (error) {
-    console.error("Erreur traitement demande Maison Calvé:", error);
+    console.error("Erreur traitement demande Maison Tourny:", error);
     return NextResponse.json(
       { success: false, message: "Une erreur interne est survenue." },
       { status: 500 }

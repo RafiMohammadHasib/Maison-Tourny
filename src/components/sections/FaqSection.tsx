@@ -79,10 +79,10 @@ export default function FaqSection({ language, onOpenEnquiry }: FaqSectionProps)
           </h3>
           <p className="text-sm text-calve-muted max-w-md mx-auto mb-6">
             {language === "en"
-              ? "Paul and the Maison Calvé team are here to assist you and welcome your team for a private viewing."
+              ? "Paul and the Maison Tourny team are here to assist you and welcome your team for a private viewing."
               : language === "es"
-              ? "Paul y el equipo de Maison Calvé están a su disposición para resolver cualquier duda y recibirle en una visita privada."
-              : "Paul et l'équipe de Maison Calvé sont à votre disposition pour vous renseigner et vous accueillir pour une visite privée."}
+              ? "Paul y el equipo de Maison Tourny están a su disposición para resolver cualquier duda y recibirle en una visita privada."
+              : "Paul et l'équipe de Maison Tourny sont à votre disposition pour vous renseigner et vous accueillir pour une visite privée."}
           </p>
           <button
             onClick={() => onOpenEnquiry("office")}

@@ -92,22 +92,22 @@ export default function AdminLoginPage() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col lg:flex-row bg-white text-slate-900 font-sans selection:bg-[#2D4B49] selection:text-white">
+    <div className="min-h-screen flex flex-col lg:flex-row bg-white text-slate-900 font-sans selection:bg-[#58639c] selection:text-white">
       {/* ========================================================== */}
       {/* LEFT PANE: HIGH OPACITY ATMOSPHERIC WORKSPACE WITH GLASS   */}
       {/* ========================================================== */}
-      <div className="relative hidden lg:flex lg:w-1/2 flex-col justify-between p-8 xl:p-12 2xl:p-14 overflow-hidden bg-[#162221] text-white border-r border-slate-200">
+      <div className="relative hidden lg:flex lg:w-1/2 flex-col justify-between p-8 xl:p-12 2xl:p-14 overflow-hidden bg-[#181b2e] text-white border-r border-slate-200">
         {/* Subtle ambient luxury background lighting */}
-        <div className="absolute top-0 right-0 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none" />
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#2D4B49]/30 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute top-0 right-0 w-96 h-96 bg-[#a5aed7]/15 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#58639c]/30 rounded-full blur-3xl pointer-events-none" />
 
         {/* Top Header in Left Pane */}
         <div className="relative z-10 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3 group">
             <div className="relative w-10 h-10 rounded-xl overflow-hidden shadow-inner border border-white/20 shrink-0 group-hover:scale-105 transition-transform">
               <Image
-                src="/images/brand/maison-calve-logo.png"
-                alt="Maison Calvé"
+                src="/images/brand/maison-tourny-logo.png"
+                alt="Maison Tourny"
                 fill
                 sizes="40px"
                 className="object-cover"
@@ -115,8 +115,8 @@ export default function AdminLoginPage() {
               />
             </div>
             <div>
-              <div className="text-sm font-extrabold tracking-tight text-white flex items-center gap-2 group-hover:text-emerald-300 transition-colors">
-                <span>MAISON CALVÉ</span>
+              <div className="text-sm font-extrabold tracking-tight text-white flex items-center gap-2 group-hover:text-[#a5aed7] transition-colors">
+                <span>MAISON TOURNY</span>
               </div>
               <p className="text-[10px] uppercase font-medium tracking-widest text-stone-300">
                 Hôtel Particulier · Bordeaux Fondaudège
@@ -135,7 +135,7 @@ export default function AdminLoginPage() {
           <div className="relative w-full max-w-sm xl:max-w-md aspect-square rounded-3xl overflow-hidden shadow-2xl border border-white/15 group">
             <Image
               src="/images/real/maison-calve-signage.jpg"
-              alt="Maison Calvé - Signalétique Intérieure & Espaces"
+              alt="Maison Tourny - Signalétique Intérieure & Espaces"
               fill
               sizes="(max-width: 1024px) 100vw, 450px"
               quality={95}
@@ -174,7 +174,7 @@ export default function AdminLoginPage() {
 
         {/* Bottom Legal Notice in Left Pane */}
         <div className="relative z-10 flex items-center justify-between text-xs text-stone-400 pt-4 border-t border-white/10">
-          <div>© {new Date().getFullYear()} MAISON CALVÉ · 48 rue Calvé, 33000 Bordeaux</div>
+          <div>© {new Date().getFullYear()} MAISON TOURNY · 48 rue Calvé, 33000 Bordeaux</div>
           <div className="text-[10px] tracking-widest uppercase font-mono text-stone-400">
             BORDEAUX CENTRE · JARDIN PUBLIC
           </div>
@@ -235,8 +235,8 @@ export default function AdminLoginPage() {
             <div className="inline-flex items-center justify-center mb-3">
               <div className="relative w-12 h-12 rounded-xl overflow-hidden shadow-2xs border border-calve-slate/15">
                 <Image
-                  src="/images/brand/maison-calve-logo.png"
-                  alt="Maison Calvé"
+                  src="/images/brand/maison-tourny-logo.png"
+                  alt="Maison Tourny"
                   fill
                   sizes="48px"
                   className="object-cover"
@@ -282,7 +282,7 @@ export default function AdminLoginPage() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="admin@maisoncalve.fr"
-                  className="w-full pl-10 pr-4 py-3 rounded-xl bg-[#EEF3F8] border border-slate-200 text-sm font-medium text-slate-900 focus:bg-white focus:border-[#2D4B49] focus:ring-2 focus:ring-[#2D4B49]/10 transition-all placeholder:text-slate-400 shadow-2xs"
+                  className="w-full pl-10 pr-4 py-3 rounded-xl bg-[#eef0f8] border border-slate-200 text-sm font-medium text-slate-900 focus:bg-white focus:border-[#58639c] focus:ring-2 focus:ring-[#58639c]/10 transition-all placeholder:text-slate-400 shadow-2xs"
                 />
               </div>
             </div>
@@ -320,7 +320,7 @@ export default function AdminLoginPage() {
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   placeholder="••••••••••••"
-                  className="w-full pl-10 pr-11 py-3 rounded-xl bg-[#EEF3F8] border border-slate-200 text-sm font-medium text-slate-900 focus:bg-white focus:border-[#2D4B49] focus:ring-2 focus:ring-[#2D4B49]/10 transition-all placeholder:text-slate-400 shadow-2xs font-mono"
+                  className="w-full pl-10 pr-11 py-3 rounded-xl bg-[#eef0f8] border border-slate-200 text-sm font-medium text-slate-900 focus:bg-white focus:border-[#58639c] focus:ring-2 focus:ring-[#58639c]/10 transition-all placeholder:text-slate-400 shadow-2xs font-mono"
                 />
                 <button
                   type="button"
@@ -340,19 +340,19 @@ export default function AdminLoginPage() {
                 id="remember"
                 checked={rememberMe}
                 onChange={(e) => setRememberMe(e.target.checked)}
-                className="w-4 h-4 rounded border-slate-300 text-[#2D4B49] focus:ring-[#2D4B49] cursor-pointer"
+                className="w-4 h-4 rounded border-slate-300 text-[#58639c] focus:ring-[#58639c] cursor-pointer"
               />
               <label htmlFor="remember" className="text-xs text-slate-600 font-medium cursor-pointer select-none">
                 {language === "fr" ? "Mémoriser ma session pendant 24 heures" : "Remember my session for 24 hours"}
               </label>
             </div>
 
-            {/* Primary Sign In Button (Deep Goizet / Maison Calvé Slate-Green) */}
+            {/* Primary Sign In Button */}
             <div className="pt-2">
               <button
                 type="submit"
                 disabled={loading}
-                className="w-full py-3.5 px-6 rounded-xl bg-[#2D4B49] hover:bg-[#233B39] text-white text-xs sm:text-sm font-bold tracking-wide transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 flex items-center justify-center gap-2 cursor-pointer disabled:opacity-50"
+                className="w-full py-3.5 px-6 rounded-xl bg-[#58639c] hover:bg-[#3e4675] text-white text-xs sm:text-sm font-bold tracking-wide transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 flex items-center justify-center gap-2 cursor-pointer disabled:opacity-50"
               >
                 {loading ? (
                   <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
@@ -370,15 +370,15 @@ export default function AdminLoginPage() {
           <div className="mt-8 pt-5 border-t border-slate-100 text-center text-xs text-slate-400">
             <p>
               {language === "fr"
-                ? "Accès sécurisé réservé à l'équipe Maison Calvé."
-                : "Secure access restricted to Maison Calvé team."}
+                ? "Accès sécurisé réservé à l'équipe Maison Tourny."
+                : "Secure access restricted to Maison Tourny team."}
             </p>
           </div>
         </div>
 
         {/* Bottom Minimal Watermark */}
         <div className="text-center text-[10px] text-slate-400 uppercase tracking-widest">
-          MAISON CALVÉ · 48 RUE CALVÉ, 33000 BORDEAUX
+          MAISON TOURNY · 48 RUE CALVÉ, 33000 BORDEAUX
         </div>
       </div>
     </div>

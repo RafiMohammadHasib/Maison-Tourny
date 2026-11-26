@@ -39,14 +39,14 @@ export const DEFAULT_SEO_SETTINGS: SeoSettings = {
   googleTagEnabled: true,
   googleAnalyticsId: "",
   googleSearchConsole: "x6PyptfUZpTT1LWFaEJEzgoTPkTt3_4s9j48E-ZJmdI",
-  metaTitle: "Maison Calvé — Coworking Bordeaux Fondaudège avec Parking",
+  metaTitle: "Maison Tourny — Coworking Bordeaux Fondaudège avec Parking",
   metaDescription:
-    "Maison Calvé : espace de coworking haut de gamme à Bordeaux Fondaudège (48 rue Calvé). 5 bureaux privatifs, open space feutré, salle de réunion 30m² et 9 places de parking privatives sécurisées.",
+    "Maison Tourny : espace de coworking haut de gamme à Bordeaux Fondaudège (48 rue Calvé). 5 bureaux privatifs, open space feutré, salle de réunion 30m² et 9 places de parking privatives sécurisées.",
   metaKeywords:
     "coworking bordeaux, coworking bordeaux parking, espace de coworking bordeaux, bureaux privatifs bordeaux, open space bordeaux, salle de reunion bordeaux, meeting room bordeaux, coworking with parking bordeaux, coworking fondaudege, location bureau bordeaux",
   canonicalUrl: "https://maisoncalve.fr",
   allowIndexing: true,
-  ogTitle: "Maison Calvé — Coworking Bordeaux Fondaudège",
+  ogTitle: "Maison Tourny — Coworking Bordeaux Fondaudège",
   ogDescription:
     "Bureaux privatifs, open space feutré et salle de réunion au 48 rue Calvé avec 9 places de parking privatives.",
   ogImage: "/images/spaces/real-open-space-fixe-4k.jpg",
@@ -81,7 +81,7 @@ export const DEFAULT_SITE_SETTINGS: SiteSettings = {
     openSpacePrice: "250€ HT"
   },
   settings_identity: {
-    agencyName: "MAISON CALVÉ",
+    agencyName: "MAISON TOURNY",
     tagline: "High-End Real Estate & Coworking in Bordeaux",
     paulPhone: "+33 5 56 00 22 10",
     edgarPhone: "+33 7 81 96 83 95",
@@ -105,7 +105,7 @@ export const DEFAULT_SITE_SETTINGS: SiteSettings = {
     parkingPolicy: "Included with private suites (9 secure courtyard bays total)"
   },
   settings_system: {
-    metaTitle: "Maison Calvé — Premium Coworking Bordeaux Fondaudège with Parking",
+    metaTitle: "Maison Tourny — Premium Coworking Bordeaux Fondaudège with Parking",
     instagramAccount: "@maisoncalvebordeaux",
     gpsCoordinates: "44.8488° N, 0.5843° W (Tram D Croix-de-Seguey)",
     leadDispatcherEmail: "admin@maisoncalve.fr"

@@ -38,7 +38,7 @@ export default function ScrollProgress() {
         }
       `}</style>
       <div
-        className={`h-full bg-gradient-to-r from-calve-slate via-[#758d91] to-emerald-400 shadow-[0_0_10px_rgba(91,112,116,0.6)] ${
+        className={`h-full bg-gradient-to-r from-calve-slate via-[#a5aed7] to-[#737cc2] shadow-[0_0_10px_rgba(165,174,215,0.65)] ${
           supportsScrollTimeline ? "mc-scroll-indicator w-full" : "transition-all duration-75 ease-out"
         }`}
         style={supportsScrollTimeline ? undefined : { width: `${progress}%` }}

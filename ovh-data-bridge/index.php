@@ -1,6 +1,6 @@
 <?php
 /**
- * Maison Calvé — OVH Database REST API Bridge
+ * Maison Tourny — OVH Database REST API Bridge
  * Connects the Next.js frontend / server with OVH MySQL database (uwenyoimaison)
  */
 
@@ -511,7 +511,7 @@ if ($action === 'update_lead' || ($action === 'lead' && ($method === 'PATCH' || 
     if ($newStatus === 'won') {
         $tenantId = 'TEN-' . preg_replace('/[^0-9]/', '', $id);
         $companyName = !empty($existing['company']) ? $existing['company'] : $existing['name'];
-        $spaceName = 'Bureau Privatif Maison Calvé';
+        $spaceName = 'Bureau Privatif Maison Tourny';
         $rentStr = '950 € HT / mois';
         $ws = (int)($existing['workstation_count'] ?? 1);
         $parking = 'Places #3 & #4';
@@ -893,7 +893,7 @@ if ($action === 'tenant' && $method === 'POST') {
     $now = date('c');
     $leadId        = !empty($inputData['leadId']) ? trim($inputData['leadId']) : null;
     $role          = trim($inputData['role'] ?? 'Résident Partenaire');
-    $spaceAssigned = trim($inputData['spaceAssigned'] ?? $inputData['space_assigned'] ?? 'Bureau Privatif Maison Calvé');
+    $spaceAssigned = trim($inputData['spaceAssigned'] ?? $inputData['space_assigned'] ?? 'Bureau Privatif Maison Tourny');
     $workstations  = (int)($inputData['workstations'] ?? 1);
     $parkingBays   = trim($inputData['parkingBays'] ?? $inputData['parking_bays'] ?? 'Places cour sécurisée');
     $leaseStart    = trim($inputData['leaseStart'] ?? $inputData['lease_start'] ?? substr($now, 0, 10));

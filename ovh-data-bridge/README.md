@@ -1,9 +1,9 @@
-# MAISON CALVÉ — OVH CLOUD DATA BRIDGE (PHP + MySQL)
+# MAISON TOURNY — OVH CLOUD DATA BRIDGE (PHP + MySQL)
 
 ## 📁 OVH File Structure & Placement
 
 In OVH Web Cloud Hosting (`uwenyoi.cluster131.hosting.ovh.net`), your root directory is `www/`.
-Since you already have an API inside `www/`, place the Maison Calvé API bridge in a dedicated subfolder:
+Since you already have an API inside `www/`, place the Maison Tourny API bridge in a dedicated subfolder:
 ```text
 www/
 └── maison-api/

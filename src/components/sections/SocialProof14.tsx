@@ -52,9 +52,9 @@ const REVIEWS: Review[] = [
     avatarBg: "bg-emerald-800 text-emerald-100",
     date: { fr: "Il y a 2 semaines", en: "2 weeks ago", es: "Hace 2 semanas" },
     text: {
-      fr: "Nous avons passé une journée en équipe à la Maison Calvé et je recommande ! Accueil très sympathique, ambiance conviviale mais propice au travail (hyper calme), sans oublier le café et les gourmandises à disposition dans la cuisine, ce qui n’est pas négligeable pour une équipe aussi gourmande que nous ! Et pour ceux qui se déplacent en voiture il y a même un parking.",
-      en: "We spent a team day at Maison Calvé and I highly recommend it! A very warm welcome, a friendly yet productive atmosphere (hyper quiet), not to mention the coffee and treats available in the kitchen, which is a real bonus for a team with such a sweet tooth as us! And for those arriving by car, there's even private parking.",
-      es: "¡Pasamos un día en equipo en Maison Calvé y lo recomiendo totalmente! Muy buena acogida, ambiente agradable y productivo (súper tranquilo), además del café y los aperitivos disponibles en la cocina, lo cual es genial para un equipo como el nuestro. Y para quienes van en coche, ¡incluso hay aparcamiento privado!",
+      fr: "Nous avons passé une journée en équipe à la Maison Tourny et je recommande ! Accueil très sympathique, ambiance conviviale mais propice au travail (hyper calme), sans oublier le café et les gourmandises à disposition dans la cuisine, ce qui n’est pas négligeable pour une équipe aussi gourmande que nous ! Et pour ceux qui se déplacent en voiture il y a même un parking.",
+      en: "We spent a team day at Maison Tourny and I highly recommend it! A very warm welcome, a friendly yet productive atmosphere (hyper quiet), not to mention the coffee and treats available in the kitchen, which is a real bonus for a team with such a sweet tooth as us! And for those arriving by car, there's even private parking.",
+      es: "¡Pasamos un día en equipo en Maison Tourny y lo recomiendo totalmente! Muy buena acogida, ambiente agradable y productivo (súper tranquilo), además del café y los aperitivos disponibles en la cocina, lo cual es genial para un equipo como el nuestro. Y para quienes van en coche, ¡incluso hay aparcamiento privado!",
     },
   },
   {

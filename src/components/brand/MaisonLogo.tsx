@@ -21,8 +21,8 @@ export default function MaisonLogo({
     xl: { badge: 64, text: "text-5xl sm:text-6xl leading-[0.82]" }
   }[size];
 
-  const textColor = light ? "text-white" : "text-calve-slate";
-  const calveColor = light ? "text-white/90" : "text-calve-slate";
+  const textColor = light ? "text-[#fcf8ed]" : "text-calve-slate";
+  const calveColor = light ? "text-[#fcf8ed]/90" : "text-calve-slate";
 
   return (
     <div className={`flex items-center gap-3 select-none ${className}`}>
@@ -31,8 +31,8 @@ export default function MaisonLogo({
         style={{ width: sizeMap.badge, height: sizeMap.badge }}
       >
         <Image
-          src="/images/brand/maison-calve-logo.png"
-          alt="Maison Calvé"
+          src="/images/brand/maison-tourny-logo.png"
+          alt="Maison Tourny"
           fill
           sizes={`${sizeMap.badge}px`}
           className="object-cover"
@@ -41,7 +41,7 @@ export default function MaisonLogo({
       </div>
       <div className={`flex flex-col tracking-tight font-extrabold lowercase font-sans ${sizeMap.text}`}>
         <span className={textColor}>maison</span>
-        <span className={calveColor}>calvé</span>
+        <span className={calveColor}>tourny</span>
       </div>
     </div>
   );

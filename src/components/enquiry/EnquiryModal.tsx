@@ -263,7 +263,7 @@ export default function EnquiryModal({
           particleCount: 80,
           spread: 70,
           origin: { y: 0.6 },
-          colors: ["#586f73", "#c06c4e", "#233033", "#ece9e2"]
+          colors: ["#a5aed7", "#58639c", "#181b2e", "#fcf8ed"]
         });
       } else {
         setError(json.message || m.errorDefault);
@@ -331,15 +331,15 @@ export default function EnquiryModal({
               <div className="flex items-center gap-2 mb-1.5">
                 <div className="relative w-6 h-6 rounded-md overflow-hidden shadow-2xs border border-calve-slate/15 shrink-0">
                   <Image
-                    src="/images/brand/maison-calve-logo.png"
-                    alt="Maison Calvé"
+                    src="/images/brand/maison-tourny-logo.png"
+                    alt="Maison Tourny"
                     fill
                     sizes="24px"
                     className="object-cover"
                   />
                 </div>
                 <div className="text-xs font-bold tracking-[0.2em] uppercase text-calve-slate">
-                  Maison Calvé · 48 Rue Calvé
+                  Maison Tourny · 48 Rue Calvé
                 </div>
               </div>
               <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-calve-charcoal">

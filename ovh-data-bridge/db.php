@@ -1,6 +1,6 @@
 <?php
 /**
- * Maison Calvé — Database Connection & Schema Management
+ * Maison Tourny — Database Connection & Schema Management
  */
 
 require_once __DIR__ . '/config.php';
@@ -762,7 +762,7 @@ function autoSeedIfEmpty($pdo) {
                 'openSpacePrice'  => '250€ HT'
             ],
             'settings_identity' => [
-                'agencyName'      => 'MAISON CALVÉ',
+                'agencyName'      => 'MAISON TOURNY',
                 'tagline'         => 'High-End Real Estate & Coworking in Bordeaux',
                 'paulPhone'       => '+33 5 56 00 22 10',
                 'edgarPhone'      => '+33 7 81 96 83 95',
@@ -785,7 +785,7 @@ function autoSeedIfEmpty($pdo) {
                 'parkingPolicy'   => 'Included with private suites (9 secure courtyard bays total)'
             ],
             'settings_system' => [
-                'metaTitle'       => 'Maison Calvé — Premium Coworking Bordeaux Fondaudège with Parking',
+                'metaTitle'       => 'Maison Tourny — Premium Coworking Bordeaux Fondaudège with Parking',
                 'instagramAccount'=> '@maisoncalvebordeaux',
                 'gpsCoordinates'  => '44.8488° N, 0.5843° W (Tram D Croix-de-Seguey)',
                 'leadDispatcherEmail' => 'admin@maisoncalve.fr'

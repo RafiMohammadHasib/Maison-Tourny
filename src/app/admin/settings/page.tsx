@@ -119,7 +119,7 @@ export default function SettingsPage() {
   const [lastSyncTime, setLastSyncTime] = useState("03:00 PM");
 
   // Form State: 1. Identity & Agency
-  const [agencyName, setAgencyName] = useState("MAISON CALVÉ");
+  const [agencyName, setAgencyName] = useState("MAISON TOURNY");
   const [tagline, setTagline] = useState("High-End Real Estate & Coworking in Bordeaux");
   const [paulPhone, setPaulPhone] = useState("+33 5 56 00 22 10");
   const [edgarPhone, setEdgarPhone] = useState("+33 7 81 96 83 95");
@@ -150,16 +150,16 @@ export default function SettingsPage() {
   const [googleSearchConsole, setGoogleSearchConsole] = useState(
     '<meta name="google-site-verification" content="x6PyptfUZpTT1LWFaEJEzgoTPkTt3_4s9j48E-ZJmdI" />'
   );
-  const [metaTitle, setMetaTitle] = useState("Maison Calvé — Coworking Bordeaux Fondaudège avec Parking");
+  const [metaTitle, setMetaTitle] = useState("Maison Tourny — Coworking Bordeaux Fondaudège avec Parking");
   const [metaDescription, setMetaDescription] = useState(
-    "Maison Calvé : espace de coworking haut de gamme à Bordeaux Fondaudège (48 rue Calvé). 5 bureaux privatifs, open space feutré, salle de réunion 30m² et 9 places de parking privatives sécurisées."
+    "Maison Tourny : espace de coworking haut de gamme à Bordeaux Fondaudège (48 rue Calvé). 5 bureaux privatifs, open space feutré, salle de réunion 30m² et 9 places de parking privatives sécurisées."
   );
   const [metaKeywords, setMetaKeywords] = useState(
     "coworking bordeaux, coworking bordeaux parking, espace de coworking bordeaux, bureaux privatifs bordeaux, open space bordeaux, salle de reunion bordeaux, meeting room bordeaux, coworking with parking bordeaux, coworking fondaudege, location bureau bordeaux"
   );
   const [canonicalUrl, setCanonicalUrl] = useState("https://maisoncalve.fr");
   const [allowIndexing, setAllowIndexing] = useState(true);
-  const [ogTitle, setOgTitle] = useState("Maison Calvé — Coworking Bordeaux Fondaudège");
+  const [ogTitle, setOgTitle] = useState("Maison Tourny — Coworking Bordeaux Fondaudège");
   const [ogDescription, setOgDescription] = useState(
     "Bureaux privatifs, open space feutré et salle de réunion au 48 rue Calvé avec 9 places de parking privatives."
   );
@@ -822,7 +822,7 @@ export default function SettingsPage() {
                   {isEnglish ? "1. Official Rental Pricing (Prices excl. VAT)" : "1. Grille Tarifaire Officielle (Prix en € HT)"}
                 </h3>
                 <p className="text-xs text-calve-muted mt-0.5">
-                  {isEnglish ? "Rates displayed live on Maison Calvé public portal and CRM quotes." : "Tarifs affichés en direct sur le site public de Maison Calvé et les devis CRM."}
+                  {isEnglish ? "Rates displayed live on Maison Tourny public portal and CRM quotes." : "Tarifs affichés en direct sur le site public de Maison Tourny et les devis CRM."}
                 </p>
               </div>
 
@@ -1083,7 +1083,7 @@ export default function SettingsPage() {
                   </h3>
                 </div>
                 <p className="text-xs text-calve-muted mt-0.5">
-                  Update your access credentials for the Maison Calvé admin management portal.
+                  Update your access credentials for the Maison Tourny admin management portal.
                 </p>
               </div>
 

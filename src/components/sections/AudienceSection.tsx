@@ -22,7 +22,7 @@ export default function AudienceSection({
       tag: "Pour Qui ?",
       title: "Des solutions pensées pour chaque profil d'exigence.",
       subtitle:
-        "Que vous soyez dirigeant d'entreprise, professionnel du droit ou consultant indépendant, découvrez comment Maison Calvé s'adapte à votre pratique quotidienne.",
+        "Que vous soyez dirigeant d'entreprise, professionnel du droit ou consultant indépendant, découvrez comment Maison Tourny s'adapte à votre pratique quotidienne.",
       tabs: [
         {
           id: "executives",
@@ -49,7 +49,7 @@ export default function AudienceSection({
           image: "/images/spaces/real-meeting-room-30m-4k.jpg",
           heading: "Confidentialité absolue et proximité du centre",
           description:
-            "Idéalement situé à quelques minutes du Palais de Justice et du centre d'affaires, Maison Calvé garantit le secret professionnel grâce à son isolation acoustique de haute volée et ses cabines téléphoniques insonorisées.",
+            "Idéalement situé à quelques minutes du Palais de Justice et du centre d'affaires, Maison Tourny garantit le secret professionnel grâce à son isolation acoustique de haute volée et ses cabines téléphoniques insonorisées.",
           recommendedSpace: "Bureau privatif ou Salle de réunion",
           recommendedId: "meeting",
           badge: "Discrétion & Acoustique",
@@ -103,7 +103,7 @@ export default function AudienceSection({
       tag: "Tailored For You",
       title: "Workspace solutions engineered for discerning professionals.",
       subtitle:
-        "Whether you are an executive founder, a legal practitioner, or a strategic consultant, see how Maison Calvé elevates your day-to-day work.",
+        "Whether you are an executive founder, a legal practitioner, or a strategic consultant, see how Maison Tourny elevates your day-to-day work.",
       tabs: [
         {
           id: "executives",
@@ -130,7 +130,7 @@ export default function AudienceSection({
           image: "/images/spaces/real-meeting-room-30m-4k.jpg",
           heading: "Absolute client confidentiality minutes from city center",
           description:
-            "Minutes from the Bordeaux courts and business hubs, Maison Calvé guarantees discretion through premium acoustic baffles and private soundproof call pods.",
+            "Minutes from the Bordeaux courts and business hubs, Maison Tourny guarantees discretion through premium acoustic baffles and private soundproof call pods.",
           recommendedSpace: "Private Suite or Boardroom",
           recommendedId: "meeting",
           badge: "Discretion & Acoustics",
@@ -184,7 +184,7 @@ export default function AudienceSection({
       tag: "A Su Medida",
       title: "Soluciones pensadas para profesionales exigentes.",
       subtitle:
-        "Ya sea directivo de empresa, abogado o consultor independiente, Maison Calvé se adapta a su ritmo y requerimientos.",
+        "Ya sea directivo de empresa, abogado o consultor independiente, Maison Tourny se adapta a su ritmo y requerimientos.",
       tabs: [
         {
           id: "executives",
@@ -295,7 +295,7 @@ export default function AudienceSection({
                   onClick={() => setActiveTab(index)}
                   className={`inline-flex items-center gap-2 px-4 sm:px-5 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition-all duration-200 cursor-pointer shrink-0 snap-start whitespace-nowrap ${
                     isActive
-                      ? "bg-[#2D4B49] text-white shadow-sm"
+                      ? "bg-calve-slate text-white shadow-sm"
                       : "text-stone-600 hover:text-slate-900 hover:bg-white/60"
                   }`}
                 >
@@ -399,15 +399,15 @@ export default function AudienceSection({
             <div className="flex items-center gap-3">
               <div className="relative w-7 h-7 rounded-lg overflow-hidden border border-white/20 shrink-0 shadow-inner">
                 <Image
-                  src="/images/brand/maison-calve-logo.png"
-                  alt="Maison Calvé"
+                  src="/images/brand/maison-tourny-logo.png"
+                  alt="Maison Tourny"
                   fill
                   sizes="28px"
                   className="object-cover"
                 />
               </div>
               <div className="flex items-center gap-2">
-                <span className="font-bold text-white tracking-wide">MAISON CALVÉ</span>
+                <span className="font-bold text-white tracking-wide">MAISON TOURNY</span>
                 <span className="text-stone-500">·</span>
                 <span className="text-stone-300 font-normal">
                   {currentTab.recommendedSpace}

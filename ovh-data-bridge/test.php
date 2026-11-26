@@ -1,6 +1,6 @@
 <?php
 /**
- * Maison Calvé — OVH Database Bridge Visual Diagnostic Tool
+ * Maison Tourny — OVH Database Bridge Visual Diagnostic Tool
  * Open this file in your browser after uploading to OVH:
  * e.g., https://uwenyoi.cluster131.hosting.ovh.net/maison-api/test.php
  */
@@ -44,7 +44,7 @@ $apiUrl = str_replace('test.php', 'index.php', $currentUrl);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maison Calvé — OVH Bridge Diagnostics</title>
+    <title>Maison Tourny — OVH Bridge Diagnostics</title>
     <style>
         :root {
             --bg: #0f172a;
@@ -85,7 +85,7 @@ $apiUrl = str_replace('test.php', 'index.php', $currentUrl);
     <div class="container">
         <div class="header">
             <div>
-                <h1>MAISON CALVÉ</h1>
+                <h1>MAISON TOURNY</h1>
                 <p>OVH Web Cloud MySQL Data Bridge Diagnostics</p>
             </div>
             <div>

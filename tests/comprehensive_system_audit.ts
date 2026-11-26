@@ -23,7 +23,7 @@ export async function runFullAudit(): Promise<AuditResult[]> {
   };
 
   console.log("================================================================================");
-  console.log("  MAISON CALVÉ — DEEP END-TO-END SYSTEM, FORM & ADMIN AUDIT");
+  console.log("  MAISON TOURNY — DEEP END-TO-END SYSTEM, FORM & ADMIN AUDIT");
   console.log(`  Target Base URL: ${BASE_URL}`);
   console.log("================================================================================\n");
 
@@ -561,7 +561,7 @@ export async function runFullAudit(): Promise<AuditResult[]> {
   {
     const start = Date.now();
     try {
-      const res = await fetch(`${BASE_URL}/images/brand/maison-calve-logo.png`);
+      const res = await fetch(`${BASE_URL}/images/brand/maison-tourny-logo.png`);
       assert.strictEqual(res.status, 200);
       const latencyMs = Date.now() - start;
       assert.ok(latencyMs < 100, `Static logo asset delivery must be < 100ms (measured: ${latencyMs}ms)`);

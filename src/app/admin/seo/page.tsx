@@ -41,16 +41,16 @@ export default function SeoPage() {
   const [googleSearchConsole, setGoogleSearchConsole] = useState(
     '<meta name="google-site-verification" content="x6PyptfUZpTT1LWFaEJEzgoTPkTt3_4s9j48E-ZJmdI" />'
   );
-  const [metaTitle, setMetaTitle] = useState("Maison Calvé — Coworking Bordeaux Fondaudège avec Parking");
+  const [metaTitle, setMetaTitle] = useState("Maison Tourny — Coworking Bordeaux Fondaudège avec Parking");
   const [metaDescription, setMetaDescription] = useState(
-    "Maison Calvé : espace de coworking haut de gamme à Bordeaux Fondaudège (48 rue Calvé). 5 bureaux privatifs, open space feutré, salle de réunion 30m² et 9 places de parking privatives sécurisées."
+    "Maison Tourny : espace de coworking haut de gamme à Bordeaux Fondaudège (48 rue Calvé). 5 bureaux privatifs, open space feutré, salle de réunion 30m² et 9 places de parking privatives sécurisées."
   );
   const [metaKeywords, setMetaKeywords] = useState(
     "coworking bordeaux, coworking bordeaux parking, espace de coworking bordeaux, bureaux privatifs bordeaux, open space bordeaux, salle de reunion bordeaux, meeting room bordeaux, coworking with parking bordeaux, coworking fondaudege, location bureau bordeaux"
   );
   const [canonicalUrl, setCanonicalUrl] = useState("https://maisoncalve.fr");
   const [allowIndexing, setAllowIndexing] = useState(true);
-  const [ogTitle, setOgTitle] = useState("Maison Calvé — Coworking Bordeaux Fondaudège");
+  const [ogTitle, setOgTitle] = useState("Maison Tourny — Coworking Bordeaux Fondaudège");
   const [ogDescription, setOgDescription] = useState(
     "Bureaux privatifs, open space feutré et salle de réunion au 48 rue Calvé avec 9 places de parking privatives."
   );
@@ -411,7 +411,7 @@ export default function SeoPage() {
             </div>
             <p className="text-xs text-calve-muted mt-0.5">
               {isEnglish
-                ? "Control how Maison Calvé appears on Google Search results, Bing, and web crawlers."
+                ? "Control how Maison Tourny appears on Google Search results, Bing, and web crawlers."
                 : "Contrôlez les titres, résumés et mots-clés affichés dans les résultats Google et Bing."}
             </p>
           </div>
@@ -553,15 +553,15 @@ export default function SeoPage() {
                 MC
               </div>
               <div className="flex flex-col">
-                <span className="text-xs font-bold text-slate-800 leading-none">Maison Calvé</span>
+                <span className="text-xs font-bold text-slate-800 leading-none">Maison Tourny</span>
                 <span className="text-[11px] text-slate-500 font-mono leading-tight">{canonicalUrl || "https://maisoncalve.fr"}</span>
               </div>
             </div>
             <h4 className="text-base sm:text-lg font-medium text-[#1a0dab] hover:underline cursor-pointer leading-snug">
-              {metaTitle || "Maison Calvé — Coworking Bordeaux Fondaudège avec Parking"}
+              {metaTitle || "Maison Tourny — Coworking Bordeaux Fondaudège avec Parking"}
             </h4>
             <p className="text-xs sm:text-sm text-[#4d5156] mt-1 leading-relaxed line-clamp-3">
-              {metaDescription || "Maison Calvé : espace de coworking haut de gamme à Bordeaux Fondaudège avec bureaux privatifs, open space feutré et parking."}
+              {metaDescription || "Maison Tourny : espace de coworking haut de gamme à Bordeaux Fondaudège avec bureaux privatifs, open space feutré et parking."}
             </p>
 
             <div className="mt-3 pt-3 border-t border-slate-100 flex flex-wrap gap-2 text-[11px] text-[#1a0dab]">

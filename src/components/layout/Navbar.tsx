@@ -66,8 +66,8 @@ export default function Navbar({
           <a href="#" className="flex items-center gap-2.5 pl-1 sm:pl-2 py-0.5 group shrink-0">
             <div className="relative w-8 h-8 rounded-lg overflow-hidden shadow-2xs border border-calve-slate/15 group-hover:scale-105 transition-transform duration-300">
               <Image
-                src="/images/brand/maison-calve-logo.png"
-                alt="Maison Calvé"
+                src="/images/brand/maison-tourny-logo.png"
+                alt="Maison Tourny"
                 fill
                 sizes="32px"
                 className="object-cover"
@@ -79,7 +79,7 @@ export default function Navbar({
                 maison
               </span>
               <span className="text-calve-slate transition-colors group-hover:text-calve-charcoal">
-                calvé
+                tourny
               </span>
             </div>
           </a>
@@ -158,7 +158,7 @@ export default function Navbar({
         {/* EDITORIAL HIGH-END MOBILE NAVIGATION MENU */}
         {/* ======================================================== */}
         {mobileMenuOpen && (
-          <div className="md:hidden fixed inset-0 z-50 bg-[#F9F8F6] text-calve-charcoal flex flex-col p-6 sm:p-8 overflow-y-auto animate-in fade-in duration-200">
+          <div className="md:hidden fixed inset-0 z-50 bg-calve-cream text-calve-charcoal flex flex-col p-6 sm:p-8 overflow-y-auto animate-in fade-in duration-200">
             {/* Top Bar inside Menu */}
             <div className="flex items-center justify-between pb-5 border-b border-calve-border/80 shrink-0">
               <a
@@ -168,8 +168,8 @@ export default function Navbar({
               >
                 <div className="relative w-9 h-9 rounded-xl overflow-hidden shadow-2xs border border-calve-slate/15">
                   <Image
-                    src="/images/brand/maison-calve-logo.png"
-                    alt="Maison Calvé"
+                    src="/images/brand/maison-tourny-logo.png"
+                    alt="Maison Tourny"
                     fill
                     sizes="36px"
                     className="object-cover"
@@ -177,7 +177,7 @@ export default function Navbar({
                 </div>
                 <div className="flex flex-col leading-[0.84] text-xl font-extrabold tracking-tighter lowercase">
                   <span>maison</span>
-                  <span>calvé</span>
+                  <span>tourny</span>
                 </div>
               </a>
 

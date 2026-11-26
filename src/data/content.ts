@@ -163,7 +163,7 @@ export const CONTENT: Record<Language, LocaleContent> = {
     },
     hero: {
       badge: "Coworking haut de gamme - Bordeaux Fondaudège",
-      title: "Maison Calvé",
+      title: "Maison Tourny",
       subtitle: "",
       district: "48 rue Calvé, 33000 Bordeaux",
       description: "Un espace de travail confortable, calme et haut de gamme pensé pour s’y installer dans le temps.",
@@ -174,10 +174,10 @@ export const CONTENT: Record<Language, LocaleContent> = {
     manifesto: {
       tag: "Notre Philosophie",
       heading: "Fini le côté usine. Bienvenue dans un écosystème à taille humaine.",
-      paragraph1: "Situé au 48 rue Calvé, en plein cœur du quartier recherché de Fondaudège, Maison Calvé propose une vision différente du travail partagé. Ici, pas de turnover incessant ni de halls impersonnels : nous bâtissons une communauté pérenne où les résidents se connaissent, partagent des valeurs d'excellence et s'élèvent mutuellement.",
-      paragraph2: "Dans ce bel hôtel particulier bordelais alliant pierre blonde d'époque, lumière zénithale et prestations contemporaines, nous offrons un environnement calme, confortable et hautement professionnel. S'implanter à la Maison Calvé, c'est choisir de s'inscrire dans la durée.",
+      paragraph1: "Situé au 48 rue Calvé, en plein cœur du quartier recherché de Fondaudège, Maison Tourny propose une vision différente du travail partagé. Ici, pas de turnover incessant ni de halls impersonnels : nous bâtissons une communauté pérenne où les résidents se connaissent, partagent des valeurs d'excellence et s'élèvent mutuellement.",
+      paragraph2: "Dans ce bel hôtel particulier bordelais alliant pierre blonde d'époque, lumière zénithale et prestations contemporaines, nous offrons un environnement calme, confortable et hautement professionnel. S'implanter à la Maison Tourny, c'est choisir de s'inscrire dans la durée.",
       quote: "Notre objectif est clair : réduire le turnover, proposer un espace calme, confortable et pro.",
-      quoteAuthor: "L'équipe Maison Calvé",
+      quoteAuthor: "L'équipe Maison Tourny",
       values: [
         {
           title: "Sérénité & Concentration",
@@ -218,7 +218,7 @@ export const CONTENT: Record<Language, LocaleContent> = {
       count: "9",
       title: "Places de parking privées au 48 rue Calvé",
       subtitle: "Le confort inestimable d'arriver au bureau l'esprit libre, sans jamais chercher où se garer dans Bordeaux.",
-      description: "Dans le quartier historique de Fondaudège où le stationnement sur voirie est saturé et contraignant, Maison Calvé dispose d'une cour intérieure close et pavée dotée de 9 emplacements réservés avec portail automatique et bornes de recharge.",
+      description: "Dans le quartier historique de Fondaudège où le stationnement sur voirie est saturé et contraignant, Maison Tourny dispose d'une cour intérieure close et pavée dotée de 9 emplacements réservés avec portail automatique et bornes de recharge.",
       points: [
         {
           title: "Accès immédiat sécurisé",
@@ -266,7 +266,7 @@ export const CONTENT: Record<Language, LocaleContent> = {
       address: "48 rue Calvé, 33000 Bordeaux",
       neighborhood: "Quartier Fondaudège / Jardin Public",
       description: "Une adresse prestigieuse et paisible à deux pas des commerces réputés de la rue Fondaudège, du Jardin Public et de la place Tourny. Une accessibilité parfaite par le Tram D ou en voiture grâce à notre parking.",
-      accessTitle: "Comment venir à Maison Calvé :",
+      accessTitle: "Comment venir à Maison Tourny :",
       accessItems: [
         {
           mode: "Tramway Ligne D",
@@ -289,7 +289,7 @@ export const CONTENT: Record<Language, LocaleContent> = {
     },
     enquiryModal: {
       title: "Demande d'information & Visite",
-      subtitle: "Précisez votre projet afin que Paul et l'équipe Maison Calvé vous répondent dans les plus brefs délais.",
+      subtitle: "Précisez votre projet afin que Paul et l'équipe Maison Tourny vous répondent dans les plus brefs délais.",
       tabOffice: "Bureau Privatif",
       tabOpenSpace: "Open Space",
       tabMeeting: "Salle de Réunion",
@@ -309,17 +309,17 @@ export const CONTENT: Record<Language, LocaleContent> = {
       submitMeeting: "Réserver ce créneau de réunion",
       submitting: "Transmission en cours...",
       successTitle: "Demande bien reçue !",
-      successMessage: "Merci pour votre intérêt pour Maison Calvé. Nous avons bien enregistré votre demande et nous vous recontacterons sous 24h pour organiser votre venue au 48 rue Calvé.",
+      successMessage: "Merci pour votre intérêt pour Maison Tourny. Nous avons bien enregistré votre demande et nous vous recontacterons sous 24h pour organiser votre venue au 48 rue Calvé.",
       close: "Fermer"
     },
     faq: {
       tag: "Questions Fréquentes",
-      title: "Tout ce que vous devez savoir sur Maison Calvé",
+      title: "Tout ce que vous devez savoir sur Maison Tourny",
       subtitle: "Vous avez une interrogation sur nos conditions d'accès, le parking ou les formalités ? Trouvez vos réponses ici.",
       items: [
         {
           q: "Combien de bureaux privatifs sont actuellement disponibles ?",
-          a: "Maison Calvé compte 5 bureaux privatifs au total. 3 sont occupés par des entreprises résidentes durables (dont Goizet Gestion). Il reste actuellement 2 bureaux disponibles : un bureau d'environ 21 m² pour 3 à 4 personnes, et un bureau d'environ 28 m² pouvant accueillir confortablement 5 à 6 personnes."
+          a: "Maison Tourny compte 5 bureaux privatifs au total. 3 sont occupés par des entreprises résidentes durables (dont Goizet Gestion). Il reste actuellement 2 bureaux disponibles : un bureau d'environ 21 m² pour 3 à 4 personnes, et un bureau d'environ 28 m² pouvant accueillir confortablement 5 à 6 personnes."
         },
         {
           q: "Comment fonctionne l'accès au parking privé de 9 places ?",
@@ -334,7 +334,7 @@ export const CONTENT: Record<Language, LocaleContent> = {
           a: "La formule flexible vous donne accès à un poste ergonomique dans l'un de nos deux open spaces calmes (6 personnes max), l'accès à la phonebox insonorisée pour vos appels, le Wi-Fi fibre haut débit sécurisé, ainsi que la cuisine équipée avec café, thés et gourmandises en libre-service."
         },
         {
-          q: "Peut-on domicilier son entreprise à la Maison Calvé ?",
+          q: "Peut-on domicilier son entreprise à la Maison Tourny ?",
           a: "Oui ! La domiciliation commerciale au 48 rue Calvé est incluse gratuitement la première année pour toute location d'un bureau privatif, et est proposée en option pour les résidents réguliers en poste fixe."
         },
         {
@@ -342,8 +342,8 @@ export const CONTENT: Record<Language, LocaleContent> = {
           a: "La salle dispose d'un écran 4K de dernière génération avec partage sans fil AirPlay/HDMI, d'une webcam grand angle pour réunions hybrides et visio Teams/Zoom, d'un paperboard, de la fibre optique dédiée et du service café/thé offert à tous les participants."
         },
         {
-          q: "Maison Calvé est-elle adaptée comme centre d'affaires et espace à taille humaine ?",
-          a: "Parfaitement. Maison Calvé allie le standing d'un centre d'affaires (bureaux de direction, salle de réunion 30m² 4K, 9 places de parking privatives et domiciliation) à la convivialité d'un lieu à taille humaine (20 résidents max, accueil personnalisé par Paul & Edgar, cuisine partagée et calme absolu). C'est l'alternative de prestige idéale aux immenses espaces impersonnels de Bordeaux."
+          q: "Maison Tourny est-elle adaptée comme centre d'affaires et espace à taille humaine ?",
+          a: "Parfaitement. Maison Tourny allie le standing d'un centre d'affaires (bureaux de direction, salle de réunion 30m² 4K, 9 places de parking privatives et domiciliation) à la convivialité d'un lieu à taille humaine (20 résidents max, accueil personnalisé par Paul & Edgar, cuisine partagée et calme absolu). C'est l'alternative de prestige idéale aux immenses espaces impersonnels de Bordeaux."
         }
       ]
     },
@@ -352,7 +352,7 @@ export const CONTENT: Record<Language, LocaleContent> = {
       address: "48 rue Calvé, 33000 Bordeaux · Quartier Fondaudège",
       contactHours: "Accueil & Visites sur rendez-vous",
       hoursDetail: "Accès membres 24h/24 & 7j/7 avec badge sécurisé.",
-      rights: "Tous droits réservés. Maison Calvé Coworking Bordeaux.",
+      rights: "Tous droits réservés. Maison Tourny Coworking Bordeaux.",
       privacy: "Politique de confidentialité",
       legal: "Mentions légales",
       bordeauxSeoText: "Coworking Bordeaux · Coworking avec parking Bordeaux · Bureaux privatifs Bordeaux Fondaudège · Open space Bordeaux · Location salle de réunion Bordeaux pour formation et séminaire."
@@ -373,7 +373,7 @@ export const CONTENT: Record<Language, LocaleContent> = {
     },
     hero: {
       badge: "High-end Coworking - Bordeaux Fondaudège",
-      title: "Maison Calvé",
+      title: "Maison Tourny",
       subtitle: "",
       district: "48 rue Calvé, 33000 Bordeaux, France",
       description: "A comfortable, calm, and high-end workspace designed to settle in over time.",
@@ -384,10 +384,10 @@ export const CONTENT: Record<Language, LocaleContent> = {
     manifesto: {
       tag: "Our Vision",
       heading: "No corporate factories. Welcome to an intentional human-scale workspace.",
-      paragraph1: "Located at 48 rue Calvé in the heart of Bordeaux's prestigious Fondaudège district, Maison Calvé offers a distinct working philosophy. Rather than endless turnover and impersonal hot-desking, we cultivate a long-term ecosystem where founders and teams know each other, share standards of excellence, and grow together.",
-      paragraph2: "In this historic French mansion combining honey limestone walls, natural light, and modern amenities, we deliver a calm, comfortable, and truly professional sanctuary. Joining Maison Calvé means choosing stability and peace of mind.",
+      paragraph1: "Located at 48 rue Calvé in the heart of Bordeaux's prestigious Fondaudège district, Maison Tourny offers a distinct working philosophy. Rather than endless turnover and impersonal hot-desking, we cultivate a long-term ecosystem where founders and teams know each other, share standards of excellence, and grow together.",
+      paragraph2: "In this historic French mansion combining honey limestone walls, natural light, and modern amenities, we deliver a calm, comfortable, and truly professional sanctuary. Joining Maison Tourny means choosing stability and peace of mind.",
       quote: "Our objective is simple: eliminate chaotic turnover and provide a calm, comfortable, and professional home.",
-      quoteAuthor: "Maison Calvé Team",
+      quoteAuthor: "Maison Tourny Team",
       values: [
         {
           title: "Tranquility & Deep Work",
@@ -428,7 +428,7 @@ export const CONTENT: Record<Language, LocaleContent> = {
       count: "9",
       title: "Private on-site parking spaces at 48 rue Calvé",
       subtitle: "The ultimate luxury of arriving at work seamlessly without ever circling for street parking in Bordeaux.",
-      description: "In the sought-after Fondaudège area where central parking is scarce and expensive, Maison Calvé provides an enclosed cobblestone courtyard with 9 dedicated bays, an automated security gate, and electric vehicle chargers.",
+      description: "In the sought-after Fondaudège area where central parking is scarce and expensive, Maison Tourny provides an enclosed cobblestone courtyard with 9 dedicated bays, an automated security gate, and electric vehicle chargers.",
       points: [
         {
           title: "Instant Keyfob Access",
@@ -476,7 +476,7 @@ export const CONTENT: Record<Language, LocaleContent> = {
       address: "48 rue Calvé, 33000 Bordeaux, France",
       neighborhood: "Fondaudège / Jardin Public Quarter",
       description: "An authentic, tranquil address moments away from the culinary boutiques of Rue Fondaudège, the lush Jardin Public, and Place Tourny. Easily reached via Tram D or by car with direct access to our private parking.",
-      accessTitle: "How to reach Maison Calvé:",
+      accessTitle: "How to reach Maison Tourny:",
       accessItems: [
         {
           mode: "Tram Line D",
@@ -499,7 +499,7 @@ export const CONTENT: Record<Language, LocaleContent> = {
     },
     enquiryModal: {
       title: "Request Information & Arrange a Viewing",
-      subtitle: "Tell us about your team and schedule so Paul and the Maison Calvé team can assist you promptly.",
+      subtitle: "Tell us about your team and schedule so Paul and the Maison Tourny team can assist you promptly.",
       tabOffice: "Private Office",
       tabOpenSpace: "Open Space",
       tabMeeting: "Meeting Room",
@@ -519,17 +519,17 @@ export const CONTENT: Record<Language, LocaleContent> = {
       submitMeeting: "Request Meeting Room Slot",
       submitting: "Submitting request...",
       successTitle: "Enquiry successfully sent!",
-      successMessage: "Thank you for reaching out to Maison Calvé. We have received your details and will get back to you within 24 hours to schedule your visit to 48 rue Calvé.",
+      successMessage: "Thank you for reaching out to Maison Tourny. We have received your details and will get back to you within 24 hours to schedule your visit to 48 rue Calvé.",
       close: "Close"
     },
     faq: {
       tag: "Frequently Asked Questions",
-      title: "Everything you need to know about Maison Calvé",
+      title: "Everything you need to know about Maison Tourny",
       subtitle: "Have questions about terms, parking availability, or office amenities? Find answers below.",
       items: [
         {
           q: "How many private offices are currently available?",
-          a: "Maison Calvé houses 5 private offices in total. 3 are currently occupied by long-term resident companies (including Goizet Gestion). We currently have 2 private offices available: one of ~21 sqm (suitable for 3 to 4 desks) and one of ~28 sqm (comfortably accommodating 5 to 6 desks)."
+          a: "Maison Tourny houses 5 private offices in total. 3 are currently occupied by long-term resident companies (including Goizet Gestion). We currently have 2 private offices available: one of ~21 sqm (suitable for 3 to 4 desks) and one of ~28 sqm (comfortably accommodating 5 to 6 desks)."
         },
         {
           q: "How does the private 9-space parking work?",
@@ -544,7 +544,7 @@ export const CONTENT: Record<Language, LocaleContent> = {
           a: "The flexible nomadic pass grants you a workstation in one of our two quiet 6-desk open spaces, full access to acoustic phone booths, high-speed fiber Wi-Fi, and the kitchen with complimentary coffee, teas, and refreshments."
         },
         {
-          q: "Can I register my business address at Maison Calvé?",
+          q: "Can I register my business address at Maison Tourny?",
           a: "Yes! Commercial domiciliation at 48 rue Calvé is included free of charge for the first year with any private office lease, and is available as an add-on for dedicated open-space residents."
         },
         {
@@ -552,8 +552,8 @@ export const CONTENT: Record<Language, LocaleContent> = {
           a: "The executive meeting room includes a 4K wireless display (AirPlay/HDMI), a wide-angle video conferencing webcam for hybrid Teams/Zoom meetings, a whiteboard, high-speed fiber, and complimentary hot/cold refreshments for all guests."
         },
         {
-          q: "Is Maison Calvé suitable as a professional business centre and boutique friendly workspace?",
-          a: "Absolutely. Maison Calvé bridges the prestige of a professional business centre (executive private suites, 30 sqm 4K meeting room, 9 private courtyard parking spots, and legal domiciliation) with the warmth of a boutique, friendly workspace (capped at ~20-25 members, personalized hospitality by Paul & Edgar, and deep-work calm). It is the premier boutique alternative to crowded, noisy corporate hubs in Bordeaux."
+          q: "Is Maison Tourny suitable as a professional business centre and boutique friendly workspace?",
+          a: "Absolutely. Maison Tourny bridges the prestige of a professional business centre (executive private suites, 30 sqm 4K meeting room, 9 private courtyard parking spots, and legal domiciliation) with the warmth of a boutique, friendly workspace (capped at ~20-25 members, personalized hospitality by Paul & Edgar, and deep-work calm). It is the premier boutique alternative to crowded, noisy corporate hubs in Bordeaux."
         }
       ]
     },
@@ -562,7 +562,7 @@ export const CONTENT: Record<Language, LocaleContent> = {
       address: "48 rue Calvé, 33000 Bordeaux, France · Fondaudège Quarter",
       contactHours: "Reception & Tours by appointment",
       hoursDetail: "24/7 keyless access for resident members.",
-      rights: "All rights reserved. Maison Calvé Coworking Bordeaux.",
+      rights: "All rights reserved. Maison Tourny Coworking Bordeaux.",
       privacy: "Privacy Policy",
       legal: "Legal Notices",
       bordeauxSeoText: "Coworking Bordeaux · Coworking with parking Bordeaux · Private offices Bordeaux Fondaudège · Open space Bordeaux · Meeting room rental Bordeaux for corporate workshops and seminars."
@@ -583,7 +583,7 @@ export const CONTENT: Record<Language, LocaleContent> = {
     },
     hero: {
       badge: "Coworking de alta gama - Burdeos Fondaudège",
-      title: "Maison Calvé",
+      title: "Maison Tourny",
       subtitle: "",
       district: "48 rue Calvé, 33000 Burdeos, Francia",
       description: "Un espacio de trabajo confortable, tranquilo y de alta gama pensado para establecerse en el tiempo.",
@@ -594,10 +594,10 @@ export const CONTENT: Record<Language, LocaleContent> = {
     manifesto: {
       tag: "Nuestra Filosofía",
       heading: "Basta del modelo fábrica. Bienvenidos a un ecosistema a escala humana.",
-      paragraph1: "Ubicado en el 48 rue Calvé, en el codiciado barrio de Fondaudège en Burdeos, Maison Calvé propone una visión diferente del coworking. Aquí no hay rotación caótica ni espacios anónimos: forjamos una comunidad estable donde los miembros se conocen, colaboran y progresan juntos.",
-      paragraph2: "En este distinguido palacete bordelés con piedra rubia de época, luz natural y prestaciones contemporáneas, ofrecemos un entorno tranquilo, confortable y altamente profesional. Instalarse en Maison Calvé es apostar por la duración y la serenidad.",
+      paragraph1: "Ubicado en el 48 rue Calvé, en el codiciado barrio de Fondaudège en Burdeos, Maison Tourny propone una visión diferente del coworking. Aquí no hay rotación caótica ni espacios anónimos: forjamos una comunidad estable donde los miembros se conocen, colaboran y progresan juntos.",
+      paragraph2: "En este distinguido palacete bordelés con piedra rubia de época, luz natural y prestaciones contemporáneas, ofrecemos un entorno tranquilo, confortable y altamente profesional. Instalarse en Maison Tourny es apostar por la duración y la serenidad.",
       quote: "Nuestro objetivo es claro: reducir la rotación y ofrecer un espacio tranquilo, cómodo y profesional.",
-      quoteAuthor: "Equipo Maison Calvé",
+      quoteAuthor: "Equipo Maison Tourny",
       values: [
         {
           title: "Serenidad & Concentración",
@@ -638,7 +638,7 @@ export const CONTENT: Record<Language, LocaleContent> = {
       count: "9",
       title: "Plazas de parking privadas en el 48 rue Calvé",
       subtitle: "La tranquilidad de llegar al trabajo sin perder tiempo buscando aparcamiento en Burdeos.",
-      description: "En el histórico barrio de Fondaudège, donde el aparcamiento es muy escaso y costoso, Maison Calvé dispone de un patio privado adoquinado con 9 plazas reservadas, puerta automática y cargadores para vehículos eléctricos.",
+      description: "En el histórico barrio de Fondaudège, donde el aparcamiento es muy escaso y costoso, Maison Tourny dispone de un patio privado adoquinado con 9 plazas reservadas, puerta automática y cargadores para vehículos eléctricos.",
       points: [
         {
           title: "Acceso automático seguro",
@@ -686,7 +686,7 @@ export const CONTENT: Record<Language, LocaleContent> = {
       address: "48 rue Calvé, 33000 Burdeos, Francia",
       neighborhood: "Barrio Fondaudège / Jardín Público",
       description: "Una dirección prestigiosa y tranquila a pocos pasos de los comercios de la rue Fondaudège, del Jardín Público y de la Place Tourny. Excelente comunicación mediante el tranvía D o en coche con acceso directo a nuestro parking privado.",
-      accessTitle: "Cómo llegar a Maison Calvé:",
+      accessTitle: "Cómo llegar a Maison Tourny:",
       accessItems: [
         {
           mode: "Tranvía Línea D",
@@ -709,7 +709,7 @@ export const CONTENT: Record<Language, LocaleContent> = {
     },
     enquiryModal: {
       title: "Solicitud de Información & Visita",
-      subtitle: "Detalle sus necesidades para que Paul y el equipo de Maison Calvé le respondan con la máxima brevedad.",
+      subtitle: "Detalle sus necesidades para que Paul y el equipo de Maison Tourny le respondan con la máxima brevedad.",
       tabOffice: "Oficina Privada",
       tabOpenSpace: "Open Space",
       tabMeeting: "Sala de Reuniones",
@@ -729,17 +729,17 @@ export const CONTENT: Record<Language, LocaleContent> = {
       submitMeeting: "Solicitar reserva de la sala",
       submitting: "Enviando solicitud...",
       successTitle: "¡Solicitud recibida con éxito!",
-      successMessage: "Gracias por su interés en Maison Calvé. Hemos registrado sus datos y nos pondremos en contacto con usted en un plazo de 24h para coordinar su visita al 48 rue Calvé.",
+      successMessage: "Gracias por su interés en Maison Tourny. Hemos registrado sus datos y nos pondremos en contacto con usted en un plazo de 24h para coordinar su visita al 48 rue Calvé.",
       close: "Cerrar"
     },
     faq: {
       tag: "Preguntas Frecuentes",
-      title: "Todo lo que necesita saber sobre Maison Calvé",
+      title: "Todo lo que necesita saber sobre Maison Tourny",
       subtitle: "¿Tiene dudas sobre el parking, los despachos o las condiciones? Encuentre aquí las respuestas.",
       items: [
         {
           q: "¿Cuántas oficinas privadas hay disponibles actualmente?",
-          a: "Maison Calvé dispone de 5 oficinas privadas en total. 3 están ocupadas por empresas residentes estables (incluyendo Goizet Gestion). Quedan 2 oficinas disponibles: una de unos 21 m² (adecuada para 3 o 4 personas) y otra de unos 28 m² (para 5 o 6 puestos)."
+          a: "Maison Tourny dispone de 5 oficinas privadas en total. 3 están ocupadas por empresas residentes estables (incluyendo Goizet Gestion). Quedan 2 oficinas disponibles: una de unos 21 m² (adecuada para 3 o 4 personas) y otra de unos 28 m² (para 5 o 6 puestos)."
         },
         {
           q: "¿Cómo funciona el parking privado de 9 plazas?",
@@ -754,7 +754,7 @@ export const CONTENT: Record<Language, LocaleContent> = {
           a: "Incluye un puesto en uno de nuestros dos open spaces tranquilos (máx. 6 puestos), acceso a cabina acústica phonebox, Wi-Fi fibra de alta velocidad y café, té y refrescos gratuitos en la cocina equipada."
         },
         {
-          q: "¿Se puede domiciliar la empresa en Maison Calvé?",
+          q: "¿Se puede domiciliar la empresa en Maison Tourny?",
           a: "¡Sí! La domiciliación comercial en el 48 rue Calvé está incluida gratis durante el primer año con cualquier contrato de oficina privada, y disponible como opción para miembros de puesto fijo."
         },
         {
@@ -762,8 +762,8 @@ export const CONTENT: Record<Language, LocaleContent> = {
           a: "Dispone de pantalla 4K inalámbrica (AirPlay/HDMI), cámara de videoconferencia para reuniones híbridas Teams/Zoom, pizarra, fibra óptica y servicio de café y bebidas para los participantes."
         },
         {
-          q: "¿Maison Calvé funciona como centro de negocios y espacio acogedor a escala humana?",
-          a: "Totalmente. Maison Calvé combina el prestigio de un centro de negocios (despachos de dirección, sala de reuniones 30 m² 4K, 9 plazas de parking y domiciliación fiscal) con la calidez de un espacio a escala humana (máx. 20 residentes, trato cercano de Paul y Edgar, cocina compartida y máxima tranquilidad). Es la alternativa boutique ideal frente a los grandes coworkings impersonales de Burdeos."
+          q: "¿Maison Tourny funciona como centro de negocios y espacio acogedor a escala humana?",
+          a: "Totalmente. Maison Tourny combina el prestigio de un centro de negocios (despachos de dirección, sala de reuniones 30 m² 4K, 9 plazas de parking y domiciliación fiscal) con la calidez de un espacio a escala humana (máx. 20 residentes, trato cercano de Paul y Edgar, cocina compartida y máxima tranquilidad). Es la alternativa boutique ideal frente a los grandes coworkings impersonales de Burdeos."
         }
       ]
     },
@@ -772,7 +772,7 @@ export const CONTENT: Record<Language, LocaleContent> = {
       address: "48 rue Calvé, 33000 Burdeos, Francia · Barrio Fondaudège",
       contactHours: "Recepción y visitas con cita previa",
       hoursDetail: "Acceso miembros 24 horas al día, 7 días a la semana con tarjeta electrónica.",
-      rights: "Todos los derechos reservados. Maison Calvé Coworking Burdeos.",
+      rights: "Todos los derechos reservados. Maison Tourny Coworking Burdeos.",
       privacy: "Política de privacidad",
       legal: "Aviso legal",
       bordeauxSeoText: "Coworking Burdeos · Coworking con parking Burdeos · Oficinas privadas Burdeos Fondaudège · Open space Burdeos · Alquiler sala de reuniones Burdeos para formaciones y eventos de empresa."

@@ -91,8 +91,8 @@ export default function CMSPage() {
       title={isEnglish ? "Content & Space Editor (CMS)" : "Éditeur de Contenu & Espaces (CMS)"}
       subtitle={
         isEnglish
-          ? "Edit key hero copy, online pricing, and urgency tags displayed on the Maison Calvé website."
-          : "Modifiez les textes clés du hero, les tarifs en ligne et les informations de disponibilité affichés sur le site Maison Calvé."
+          ? "Edit key hero copy, online pricing, and urgency tags displayed on the Maison Tourny website."
+          : "Modifiez les textes clés du hero, les tarifs en ligne et les informations de disponibilité affichés sur le site Maison Tourny."
       }
       headerAction={
         <div className="flex items-center gap-2">
@@ -163,7 +163,7 @@ export default function CMSPage() {
 
             <div>
 <label htmlFor="cms-heroDesc" className="block text-[11px] font-bold uppercase tracking-wider text-calve-slate mb-1">
-                {isEnglish ? "CATCHPHRASE DESCRIPTION (UNDER MAISON CALVÉ WORDMARK)" : "DESCRIPTION D'ACCROCHE (SOUS LE MOT-SYMBOLE MAISON CALVÉ)"}
+                {isEnglish ? "CATCHPHRASE DESCRIPTION (UNDER MAISON TOURNY WORDMARK)" : "DESCRIPTION D'ACCROCHE (SOUS LE MOT-SYMBOLE MAISON TOURNY)"}
               </label>
               <textarea
                 id="cms-heroDesc"

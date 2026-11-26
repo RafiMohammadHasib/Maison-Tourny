@@ -19,7 +19,7 @@ export default function ParkingFeature({ language, onOpenEnquiry }: ParkingFeatu
           {/* Left Column: Bold Editorial Pitch */}
           <div className="lg:col-span-6 xl:col-span-5 flex flex-col justify-between space-y-8">
             <div className="space-y-4">
-              <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-xs font-semibold uppercase tracking-wider text-emerald-800">
+              <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-calve-stone border border-calve-border text-xs font-semibold uppercase tracking-wider text-calve-slate">
                 <Car className="w-3.5 h-3.5" />
                 <span>{t.tag}</span>
               </div>
@@ -51,7 +51,7 @@ export default function ParkingFeature({ language, onOpenEnquiry }: ParkingFeatu
                   className="p-4 rounded-2xl bg-calve-cream border border-calve-border/60 shadow-2xs space-y-1.5"
                 >
                   <div className="flex items-center gap-2 font-semibold text-xs text-calve-charcoal">
-                    <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
+                    <CheckCircle2 className="w-4 h-4 text-calve-slate shrink-0" />
                     <span>{p.title}</span>
                   </div>
                   <p className="text-[12px] text-calve-muted pl-6 leading-relaxed">
@@ -79,7 +79,7 @@ export default function ParkingFeature({ language, onOpenEnquiry }: ParkingFeatu
               {/* Giant Full-Height Photo */}
               <img
                 src="/images/calve-parking.jpg"
-                alt="Cour pavée avec 9 places de parking privées Maison Calvé Bordeaux"
+                alt="Cour pavée avec 9 places de parking privées Maison Tourny Bordeaux"
                 className="w-full h-full min-h-[460px] sm:min-h-[540px] lg:min-h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
               />
 
@@ -127,7 +127,7 @@ export default function ParkingFeature({ language, onOpenEnquiry }: ParkingFeatu
 
             {/* Floating Guarantee Badge */}
             <div className="absolute -bottom-5 left-6 bg-white/95 backdrop-blur-md p-4 rounded-2xl border border-calve-border shadow-xl hidden sm:flex items-center gap-3.5 z-20">
-              <div className="w-11 h-11 rounded-xl bg-emerald-50 flex items-center justify-center text-emerald-700 shadow-2xs">
+              <div className="w-11 h-11 rounded-xl bg-calve-stone flex items-center justify-center text-calve-slate shadow-2xs">
                 <Shield className="w-5 h-5" />
               </div>
               <div>

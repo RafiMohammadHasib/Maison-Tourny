@@ -1,11 +1,11 @@
 {
-  "name": "Maison Calvé · Bureaux & Coworking Bordeaux",
-  "short_name": "Maison Calvé",
+  "name": "Maison Tourny · Bureaux & Coworking Bordeaux",
+  "short_name": "Maison Tourny",
   "description": "Espaces de travail d'exception, bureaux privés et coworking dans un hôtel particulier du XIXe siècle au cœur de Bordeaux.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#748c8c",
-  "theme_color": "#748c8c",
+  "background_color": "#a5aed7",
+  "theme_color": "#a5aed7",
   "icons": [
     {
       "src": "/icon-192.png",
@@ -18,7 +18,7 @@
       "type": "image/png"
     },
     {
-      "src": "/images/brand/maison-calve-logo.png",
+      "src": "/images/brand/maison-tourny-logo.png",
       "sizes": "1024x1024",
       "type": "image/png",
       "purpose": "any maskable"
