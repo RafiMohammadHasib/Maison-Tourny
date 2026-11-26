@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+/* Tailwind CSS v4 Design Tokens */
+@theme {
+  --font-sans: var(--font-sans), "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --color-calve-slate: #5b7074;
+  --color-calve-slate-light: #758d91;
+  --color-calve-slate-dark: #3a4b4e;
+  --color-calve-slate-deep: #1c2729;
+  --color-calve-cream: #f9f9f6;
+  --color-calve-stone: #f1efe9;
+  --color-calve-sand: #e5e0d7;
+  --color-calve-charcoal: #172123;
+  --color-calve-muted: #6e7f82;
+  --color-calve-accent: #c06c4e;
+  --color-calve-border: #e3ded6;
+}
+
+:root {
+  --background: #f9f9f6;
+  --foreground: #172123;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #f9f9f6;
+  color: #172123;
+}
+
+body {
+  background-color: #f9f9f6;
+  color: #172123;
+  overflow-x: clip;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: #5b7074;
+  color: #ffffff;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1efe9;
+}
+::-webkit-scrollbar-thumb {
+  background: #5b7074;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3a4b4e;
+}
+
+/* Lenis smooth scrolling rules */
+html.lenis, html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
